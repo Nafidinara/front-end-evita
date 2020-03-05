@@ -1,0 +1,4420 @@
+@font-face {
+    font-family: 'daxline';
+    src: url('../font/DaxlinePro-Regular_13131.ttf');
+    /* IE9 Compat Modes */
+    src: url('../font/DaxlinePro-Regular_13131.ttf') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../font/DaxlinePro-Regular_13131.ttf') format('woff'),
+      /* Modern Browsers */
+      url('../font/DaxlinePro-Regular_13131.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('../font/DaxlinePro-Regular_13131.ttf') format('svg');
+    /* Legacy iOS */
+  }
+
+  @font-face {
+    font-family: 'daxline';
+    font-weight: bold;
+    src: url('../font/DaxlinePro-Bold_13127.ttf');
+    /* IE9 Compat Modes */
+    src: url('../font/DaxlinePro-Bold_13127.ttf') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../font/DaxlinePro-Bold_13127.ttf') format('woff'),
+      /* Modern Browsers */
+      url('../font/DaxlinePro-Bold_13127.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('../font/DaxlinePro-Bold_13127.ttf') format('svg');
+    /* Legacy iOS */
+  }
+
+  @font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('../font/HelveticaNeueMedium.ttf');
+  }
+
+  @font-face {
+    font-family: 'helveticaneuelight';
+    src: url('../font/HelveticaNeueLight.ttf');
+  }
+
+  @font-face {
+    font-family: 'opensans';
+    src: url('../font/OpenSans-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'opensansbold';
+    src: url('../font/OpenSans-Bold.ttf');
+  }
+
+  body {
+    zoom: 100%;
+    /* all browsers */
+    -moz-transform: scale(1);
+    /* Firefox */
+  }
+
+
+  /* .carousel-item img{
+      width: 100%;
+  } */
+
+  header {
+    height: 140px;
+    background-color: #000000;
+  }
+
+  .bg-top-linear{
+    
+  }
+
+  header>.logo {
+    width: 20%;
+    padding: 0;
+  }
+
+  header a,
+  header a:hover {
+    font-family: daxline;
+    font-size: 1.500em;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .full-width {
+    width: 100%;
+    max-width: 1920px;
+  }
+
+  .menu {
+    padding: 0 0 0 40px;
+  }
+
+  .lang-box {
+    width: 20%;
+    padding: 0;
+  }
+
+  .lang-item {
+    position: absolute;
+    left: 50px;
+  }
+
+  .price-item {
+    position: absolute;
+    left: 210px;
+  }
+
+  .lang-item,
+  .price-item {
+    color: white;
+    font-size: 22px;
+    opacity: 1;
+    border-radius: 30px;
+    background-color: #343d46;
+    padding: 15px 25px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .lang-item img {
+      width: 30px;
+      height: 25px;
+  }
+
+  .lang-item-arrow-down-icon,
+  .price-item-arrow-down-icon {
+    margin-left: 10px;
+    color: #fff100;
+  }
+
+  /* #home-slider .carousel-inner {
+    height: calc(100vh - 140px);
+  } */
+
+  #home-slider .slider-arrow-left {
+    width: 60px;
+    height: 120px;
+    object-fit: contain;
+  }
+
+  #home-slider .slider-arrow-right {
+    width: 60px;
+    height: 120px;
+    object-fit: contain;
+  }
+
+  #home-slider .carousel-control-prev {
+    left: -6%;
+    top: unset;
+    bottom: 55%;
+  }
+
+  #home-slider .carousel-control-next {
+    right: -6%;
+    top: unset;
+    bottom: 55%;
+  }
+
+  #home-slider .carousel-caption {
+    right: unset;
+    left: 130px;
+    padding-left: 30px;
+    bottom: unset;
+    top: 35%;
+    text-align: left;
+  }
+
+  #home-slider .carousel-caption>h5 {
+    width: 650px;
+    height: 200px;
+    text-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    font-family: daxline;
+    font-size: 90px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #fff100;
+  }
+
+  #home-slider .carousel-caption .differentHeadingStyle {
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  #home-slider .carousel-caption>p {
+    width: 641px;
+    height: 120px;
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  #home-slider .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border: solid 2px #c0c5ce;
+    border-radius: 50px;
+    background-color: transparent;
+  }
+
+  #home-slider .carousel-indicators .active {
+    border: solid 2px #fff100;
+    background-color: #fff100;
+  }
+
+  #home-slider .carousel-indicators {
+    bottom: 5%;
+    top: unset;
+  }
+
+  .welcome-section {
+    background-color: #131e29;
+    padding: 100px;
+    box-sizing: border-box !important;
+    color: #fff;
+    text-align: center;
+    font-family: daxline;
+  }
+
+  .logo-at-welcome-section {
+    margin-bottom: 40px;
+  }
+
+  .intro-welcome-section {
+    margin-bottom: 80px;
+  }
+
+  .why-diveconcept-welcome-section {
+    margin-bottom: 60px;
+  }
+
+  .why-diveconcept-welcome-section h2 {
+    font-size: 3em;
+  }
+
+  .advantage-diveconcept-welcome-section {
+    margin-bottom: 160px;
+  }
+
+  .diveconcept-map-section-at-welcome-section {}
+
+  .welcome-heading {
+    max-width: 1100px;
+  }
+
+  .welcome-heading>h2 {
+    font-size: 3em;
+  }
+
+  .welcome-heading>p {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c0c5ce;
+  }
+
+  .advantage-diveconcept-item {
+    width: 140px;
+    font-size: 20px;
+    margin-right: 100px;
+    letter-spacing: -0.67px;
+    z-index: 2;
+  }
+
+  .dive-master-icon-item {
+    width: auto;
+    font-size: 20px;
+    margin-right: 100px;
+    letter-spacing: -0.67px;
+    z-index: 2;.content-first{
+      width: 100%;
+      height: 1000px;
+      background-color: #131e29;
+    }
+  }
+
+  .advantage-diveconcept-item>img,
+  .dive-master-icon-item>img {
+    margin-bottom: 20px;
+  }
+
+  .logo-diveconcepts {
+    width: 628px;
+    height: 668px;
+    object-fit: contain;
+    opacity: 0.75;
+    position: absolute;
+    top: 350px;
+    right: 0;
+    z-index: 1;
+  }
+
+  .map-diveconcept {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/map.svg);
+    background-repeat: no-repeat;
+    z-index: 4;
+  }
+
+  .bubble-text {
+    margin-top: -20%;
+    background-image: url(../img/text-bubble-box-vertical.png);
+    width: 499.4px;
+    height: 700px;
+    z-index: 4;
+    background-repeat: no-repeat;
+  }
+
+  .dive-center-location a {
+    margin: 20px;
+  }
+
+  .all-dive-center-location {
+    z-index: 3;
+  }
+
+  .no-vertical-scroll {
+    overflow-x: hidden !important;
+  }
+
+  .spot-pemuteran {
+    position: absolute;
+    top: -11%;
+    left: 14.8%;
+  }
+
+  .spot-tulamben {
+    position: absolute;
+    top: -5%;
+    right: 18%;
+  }
+
+  .spot-amed {
+    position: absolute;
+    top: 12%;
+    right: 8%;
+  }
+
+  .spot-lembongan {
+    position: absolute;
+    bottom: 33%;
+    right: 22%;
+  }
+
+  .spot-lembongan h3 {
+    position: absolute;
+    left: 85px;
+    text-align: left;
+  }
+
+  .active-spot-pemuteran {
+    background-image: url(../img/active-indicator.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 153px;
+    height: 154px;
+    position: absolute;
+    top: -11%;
+    left: 14%;
+  }
+
+  .active-spot-tulamben {
+    background-image: url(../img/active-indicator.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 153px;
+    height: 154px;
+    position: absolute;
+    top: -5%;
+    right: 16.7%;
+  }
+
+  .active-spot-amed {
+    background-image: url(../img/active-indicator.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 153px;
+    height: 154px;
+    position: absolute;
+    top: 12%;
+    right: 4.5%;
+  }
+
+  .active-spot-lembongan {
+    background-image: url(../img/active-indicator.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 153px;
+    height: 154px;
+    position: absolute;
+    bottom: 27%;
+    right: 19%;
+  }
+
+  .active-spot-lembongan h3 {
+    position: absolute;
+    left: 130px;
+    text-align: left;
+    bottom: 30%;
+  }
+
+  .active-spot-lembongan img {
+    position: absolute;
+    bottom: 30%;
+    right: 25%;
+  }
+
+  .active-spot-pemuteran>h3,
+  .active-spot-tulamben>h3,
+  .active-spot-amed>h3,
+  .active-spot-lembongan>h3 {
+    color: #fff100;
+  }
+
+  .icon-turtle {
+    width: 115.5px;
+    height: 90px;
+    object-fit: contain;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+  }
+
+  .bubble-text>h3 {
+    width: 300px;
+    height: 84px;
+    font-family: daxline;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #fff100;
+    position: absolute;
+    top: 21%;
+    left: 25%;
+    text-align: left;
+  }
+
+  .bubble-text>p {
+    width: 300px;
+    height: 222px;
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d8dbe1;
+    text-align: left;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+  }
+
+  .map-pin-icon {
+    width: 402px;
+    height: 502px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+  }
+
+  .map-tap-hint {
+    position: absolute;
+    background-color: #343d46;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    opacity: 0.5;
+    border-radius: 34px;
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  .more-detail-about-divecenter {
+    color: white;
+    height: 625px;
+    background-image: radial-gradient(circle at 50% 0, #131e29, #000000 95%);
+    box-sizing: border-box;
+    padding: 100px;
+  }
+
+  .more-detail-about-divecenter h2 {
+    width: 943px;
+    height: 80px;
+    font-family: daxline;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .more-detail-about-divecenter p {
+    width: 864px;
+    height: 55px;
+    font-family: daxline;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff100;
+  }
+
+  footer {
+    width: 1920px;
+    height: auto;
+    background-color: #131e29;
+    padding-top: 60px;
+    color: white;
+  }
+
+  .bottom-footer {
+    width: 1920px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: #000000;
+    text-align: center;
+  }
+
+  .footer-about-diveconcept {
+    padding-left: 150px;
+  }
+
+  .footer-about-diveconcept .first-head {
+    width: 325px;
+    height: 38px;
+    font-family: helveticaneuemedium;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5.33px;
+    color: #fff100;
+  }
+
+  .footer-about-diveconcept .second-head {
+    width: 77px;
+    height: 33px;
+    font-family: helveticaneuelight;
+    font-size: 24px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.67px;
+    color: #fff100;
+  }
+
+  .footer-about-diveconcept h4,
+  .photograp {
+    font-family: opensansbold;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #fff100;
+  }
+
+  .photograp {
+    font-size: 20px;
+  }
+
+  .footer-nitrox {
+    margin-left: 200px;
+    padding-right: 9%;
+  }
+
+  .footer-download-section {
+    padding-right: 9%;
+  }
+
+  .footer-nitrox h4 {
+    font-family: opensansbold;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #fff100;
+  }
+
+  .footer-about-diveconcept p,
+  .photosby,
+  .footer-nitrox p {
+    font-family: opensans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #fff;
+  }
+
+  .courses-type-list {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 1080px;
+    object-fit: contain;
+    background-image: url(../img/open-water-course.jpg);
+    background-size: cover !important;
+    background-position: center;
+  }
+
+  .fun-dives-day-trip-list {
+    margin-top: 180px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 1080px;
+    object-fit: contain;
+    background-image: url(../img/day-trip-certified-diver.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+  }
+
+  .diver-safari-list {
+    margin-top: 250px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 1080px;
+    object-fit: contain;
+    background-image: url(../img/14-days-safari.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+  }
+
+  .dive-master-courses-list {
+    margin-top: 900px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 1080px;
+    object-fit: contain;
+    background-image: url(../img/homepage-go-pro-dive-master-default.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+  }
+
+  .testimonial-list {
+    margin-top: 500px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 700px;
+    object-fit: contain;
+    background-color: #131e29;
+  }
+
+  .testimonial-list .heading-text {
+    z-index: 3;
+    height: 180px;
+    max-height: 180px;
+  }
+
+  .testimonial-list .heading-text h2 {
+    z-index: 3;
+  }
+
+  .testimonial-slider-box-parent {
+    z-index: 4;
+    margin-top: -200px;
+    padding-left: 150px;
+  }
+
+  .testimonial-list h2 {
+    font-family: daxline;
+    font-size: 120px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4f5b66;
+    margin-top: 50px;
+  }
+
+  .testimonial-list .box {
+    background-image: url(../img/double-quote.png);
+    background-repeat: no-repeat;
+    background-position: right 10px top 10px;
+    width: 80%;
+    height: 350px;
+    border-radius: 12px;
+    background-color: #ffffff
+  }
+
+  #testimonial-slider .carousel-control-prev {
+    top: unset;
+    bottom: -134px;
+    right: unset;
+    left: 550px;
+  }
+
+  #testimonial-slider .carousel-control-next {
+    top: unset;
+    bottom: -134px;
+    right: unset;
+    left: 765px;
+  }
+
+
+  #testimonial-slider ol {
+    top: unset;
+    right: unset;
+    right: unset;
+    left: 450px;
+    bottom: -150px;
+  }
+
+  #testimonial-slider .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border: solid 2px #c0c5ce;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-right: 20px;
+  }
+
+  #testimonial-slider .carousel-indicators .active {
+    border: solid 2px #fff100;
+    background-color: #fff100;
+  }
+
+  .testimonial-heading {
+    margin-top: 20px;
+    font-family: opensansbold;
+    font-size: 24px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #131e29;
+  }
+
+  .testimonial-content {
+    width: 90%;
+    font-family: daxline;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #343d46;
+  }
+
+  .diver-testimonial-photo {
+    height: 110px;
+    width: 110px;
+  }
+
+  .cta-section {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 720px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-image: url(../img/cta-bg.jpg);
+    background-size: cover;
+  }
+
+  .cta-section .follow-our-text {
+    padding-right: 5px;
+    font-family: daxline;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    display: inline-block;
+  }
+
+  .cta-section .social-media-text {
+    font-family: daxline;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: -0.5px;
+    color: #fff100;
+    display: inline-block;
+  }
+
+  .cta-section .ready-to-dive-with-us-text {
+    font-family: daxline;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff100;
+  }
+
+  .cta-section .desc-ready-to-dive-with-us-text {
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto 0px auto;
+    color: #ffffff;
+  }
+
+  .cta-section .btn-cta {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .courses-type {
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  .diver-safari-type,
+  .dive-master-courses-type {
+    margin-top: 130px;
+    margin-left: 40px;
+  }
+
+  .available-dive-master-courses-parent-box {
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 4;
+    margin-top: 300px;
+    margin-left: 130px;
+  }
+
+  .selected-dive-master-courses-info-parent-box {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 10px;
+    z-index: 3;
+    margin-top: -400px;
+  }
+
+  .selected-dive-master-courses-info .description {
+    padding-top: 50px;
+    padding-left: 160px;
+  }
+
+  .available-safari-courses-parent-box {
+    z-index: 4;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 40px;
+    margin-top: -15px;
+  }
+
+  .selected-diver-safari-info-parent-box {
+    z-index: 3;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -370px;
+  }
+
+  .diver-safari-info-left-side {
+    padding-top: 50px;
+    padding-left: 135px;
+    /* padding-left: 150px; */
+  }
+
+  .fun-dives-day-trip-type {
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+
+  .courses-type>h2,
+  .fun-dives-day-trip-type>h2,
+  .diver-safari-type>h2,
+  .dive-master-courses-type>h2 {
+    width: 620px;
+    height: 96px;
+    font-family: daxline;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-left: 80px;
+  }
+
+  .courses-type>p,
+  .fun-dives-day-trip-type>p,
+  .diver-safari-type>p {
+    width: 620px;
+    height: 200px;
+    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin-left: 80px;
+  }
+
+  .courses-type-hint,
+  .fun-dives-day-trip-type-hint,
+  .diver-safari-type-hint,
+  .dive-master-type-hint {
+    text-align: center;
+    width: 480px;
+    height: 50px;
+    opacity: 0.5;
+    border-radius: 34px;
+    border: solid 2px #ffffff;
+    background-color: #131e29;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 80px;
+  }
+
+  .dive-master-type-hint {
+    margin-top: 250px;
+  }
+
+  .courses-type-hint-desc,
+  .fun-dives-day-trip-hint-desc,
+  .diver-safari-type-hint-desc,
+  .dive-master-type-hint-desc {
+    font-family: daxline;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .courses-type-hint-taptext,
+  .fun-dives-day-trip-hint-taptext,
+  .diver-safari-type-hint-taptext,
+  .dive-master-type-hint-taptext {
+    font-weight: bold;
+    color: #fff100;
+  }
+
+  .courses-gradient,
+  .fun-dives-day-trip-gradient,
+  .diver-safari-gradient,
+  .dive-master-courses-gradient {
+    width: 1920px;
+    height: 345px;
+    background-image: linear-gradient(to bottom, rgba(43, 64, 82, 0) 20%, #131e29 86%);
+  }
+
+  .selected-courses-info-parent-box {
+    z-index: 3;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -350px;
+  }
+
+  .selected-fun-dives-day-trip-info-parent-box {
+    z-index: 3;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -350px;
+  }
+
+  .selected-fun-dives-day-trip-info .description {
+    padding-top: 50px;
+  }
+
+  .selected-courses-info,
+  .selected-fun-dives-day-trip-info {
+    width: 1935px;
+    height: 500px;
+    background-color: #131e29;
+  }
+
+  .selected-fun-dives-day-trip-info .description {
+    padding-left: 175px;
+  }
+
+  .selected-fun-dives-day-trip-info .price-btn-action {
+    padding-left: 175px;
+  }
+
+  .selected-courses-info .description {
+    padding-top: 50px;
+  }
+
+  .selected-courses-info .description {
+    padding-left: 160px;
+  }
+
+  .selected-courses-info .price-btn-action {
+    padding-left: 160px;
+  }
+
+  .selected-dive-master-courses-info {
+    width: 1935px;
+    height: 900px;
+    background-color: #131e29;
+  }
+
+  .selected-diver-safari-info {
+    width: 1935px;
+    height: 900px;
+    background-color: #131e29;
+  }
+
+  .diver-safari-info-icon {
+    margin-top: 80px;
+  }
+
+  .diver-safari-info-icon .btn-place {
+    margin-top: 40px;
+  }
+
+  .diver-safari-info-icon p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #c0c5ce;
+  }
+
+  .diver-safari-info-icon .detail {
+    margin-bottom: 10px;
+    font-family: opensansbold;
+    font-size: 24px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .diver-safari-info-icon .detailed {
+    margin-bottom: 10px;
+    font-family: opensansbold;
+    font-size: 24px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff100;
+  }
+
+  .diver-safari-info-icon .findMoreBtn {
+    text-transform: uppercase;
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    background-color: transparent;
+    width: 300px;
+    height: 80px;
+    border-radius: 12px;
+    border: solid 3px #fff100;
+  }
+
+  .dive-safari-dive-spot {
+    padding-top: 50px;
+    padding-left: 150px;
+  }
+
+  .dive-safari-dive-spot-top-space-between-item {
+    margin-top: 30px;
+  }
+
+  .dive-safari-dive-spot .thumbnail {
+    float: left;
+    width: 140px;
+    margin-right: 40px;
+  }
+
+  .dive-safari-dive-spot .thumbnail img {
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+  }
+
+  .dive-safari-dive-spot .description {
+    float: left;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .dive-safari-dive-spot .line {
+    width: 80%;
+    margin-top: 160px;
+    margin-left: 15px;
+    height: 2px;
+    border: solid 1px #65737e;
+  }
+
+  .custom-safari {
+    width: 1920px;
+    height: 300px;
+    background-image: radial-gradient(circle at 0 -27%, #fff383, #ffe44c 53%);
+  }
+
+  .custom-safari .content {
+    padding-left: 90px;
+  }
+
+  .custom-safari h2 {
+    padding-top: 80px;
+    padding-left: 40px;
+    font-family: daxline;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #343d46;
+  }
+
+  .custom-safari p {
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: daxline;
+    font-size: 24px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #343d46;
+  }
+
+  .custom-safari .map {
+    padding-left: 170px;
+    height: 300px;
+    object-fit: contain;
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+  }
+
+  .custom-safari .btnAction {
+
+    text-transform: uppercase;
+    width: 400px;
+    margin-top: 80px;
+    height: 80px;
+    outline: none;
+    border-color: #343d46;
+    border-radius: 12px;
+    background-color: #343d46;
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #fff100;
+  }
+
+  .dive-safari-dive-spot h4 {
+    font-family: daxline;
+    font-size: 20px;
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.67px;
+    color: #fff100;
+  }
+
+  .dive-safari-dive-spot p {
+    font-family: daxline;
+    font-size: 16px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d8dbe1;
+  }
+
+  .selected-courses-info h2,
+  .selected-fun-dives-day-trip-info h2,
+  .selected-dive-master-courses-info h2 {
+    font-family: daxline;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .selected-diver-safari-info h2 {
+    font-family: opensansbold;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .selected-courses-info p,
+  .selected-fun-dives-day-trip-info p,
+  .selected-diver-safari-info p,
+  .selected-dive-master-courses-info p {
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    width: 70%;
+  }
+
+  .selected-courses-price .label,
+  .selected-fun-dives-day-trip-price .label,
+  .selected-diver-safari-price .label,
+  .selected-dive-master-courses-price .label {
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #c0c5ce;
+  }
+
+  .learn-more-dive-master-parent-box {
+    padding-left: 80px;
+    margin-top: -180px;
+  }
+
+  .icon-dive-master {
+    /* padding-right: 50px; */
+  }
+
+  .learn-more-dive-master {
+    padding-left: 100px;
+  }
+
+  .selected-dive-master-courses-price {
+    padding-top: 50px;
+    padding-left: 150px;
+  }
+
+  .courses-price-detail,
+  .fun-dives-day-trip-price-detail {
+    padding-top: 50px;
+  }
+
+  .courses-price-detail .cur,
+  .selected-fun-dives-day-trip-price .cur,
+  .selected-diver-safari-price .cur,
+  .selected-dive-master-courses-price .cur,
+  .fun-dives-day-trip-price-detail .cur {
+    font-family: opensansbold;
+    font-size: 28px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff100;
+  }
+
+  .courses-price-detail .amount,
+  .selected-fun-dives-day-trip-price .amount,
+  .selected-diver-safari-price .amount,
+  .selected-dive-master-courses-price .amount,
+  .fun-dives-day-trip-price-detail .amount {
+    font-family: opensansbold;
+    font-size: 28px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .courses-price-detail .findMoreBtn,
+  .selected-fun-dives-day-trip-price .findMoreBtn,
+  .selected-dive-master-courses-price .findMoreBtn,
+  .learn-more-dive-master .learnMoreBtn,
+  .fun-dives-day-trip-price-detail .findMoreBtn {
+    font-family: daxline;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    background-color: transparent;
+    width: 300px;
+    height: 80px;
+    border-radius: 12px;
+    border: solid 3px #fff100;
+  }
+
+  .available-courses-parent-box {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 50px;
+    z-index: 4;
+  }
+
+  .available-fun-dives-day-trip-parent-box {
+    z-index: 4;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 50px;
+  }
+
+  .available-courses,
+  .available-fun-dives-day-trip,
+  .available-safari-dives {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+  .available-dive-master-courses {
+    margin-top: -250px;
+  }
+
+  .available-courses div,
+  .available-fun-dives-day-trip div,
+  .available-safari-dives div,
+  .available-dive-master-courses div {
+    margin-right: -5px;
+    display: inline-block;
+  }
+
+  .available-courses img,
+  .available-fun-dives-day-trip img,
+  .available-safari-dives img,
+  .available-dive-master-courses img {
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+  }
+
+  .available-courses div.active,
+  .available-fun-dives-day-trip div.active,
+  .available-safari-dives div.active,
+  .available-dive-master-courses div.active {
+    display: inline-block;
+    position: relative;
+
+  }
+
+  .available-courses div.active img,
+  .available-fun-dives-day-trip div.active img,
+  .available-safari-dives div.active img,
+  .available-dive-master-courses div.active img {
+    width: 210px;
+    height: 210px;
+  }
+
+  .available-courses div.active:after,
+  .available-fun-dives-day-trip div.active:after,
+  .available-safari-dives div.active:after,
+  .available-dive-master-courses div.active:after {
+    margin-left: 10px;
+    margin-top: 5px;
+    background-image: url(../img/active-indicator1.png);
+    width: 190px;
+    z-index: 4;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .diver-safari-info-left-side p {
+    width: 100%;
+  }
+
+  .duration-days {
+    margin-bottom: 0px !important;
+  }
+
+  .duration-nights {
+    margin-top: 0px !important;
+  }
+
+  .learn-more-dive-master .description2 {
+    margin-top: 30px;
+    width: auto;
+    padding-right: 10px;
+  }
+
+  .dive-master-icon-item p {
+    font-size: 18px;
+    text-align: center;
+    width: auto;
+  }
+
+  .first-layer {
+    z-index: 1;
+  }
+
+  .second-layer {
+    z-index: 2;
+  }
+
+  .third-layer {
+    z-index: 3;
+  }
+
+  .fourth-layer {
+    z-index: 4;
+  }
+
+  .fifth-layer {
+    z-index: 5;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  .absolute {
+    position: absolute;
+  }
+
+  .margin-top0px {
+    margin-top: 0px;
+  }
+
+  .margin-top10px {
+    margin-top: 10px;
+  }
+
+  .margin-top20px {
+    margin-top: 20px;
+  }
+
+  .margin-top30px {
+    margin-top: 30px;
+  }
+
+  .margin-top40px {
+    margin-top: 40px;
+  }
+
+  .margin-top50px {
+    margin-top: 50px;
+  }
+
+  .margin-top80px {
+    margin-top: 80px;
+  }
+
+  .margin-top100px {
+    margin-top: 100px;
+  }
+
+  .margin-top180px {
+    margin-top: 180px;
+  }
+
+  .margin-top300px {
+    margin-top: 300px;
+  }
+
+  .margin-bottom0px {
+    margin-bottom: 0px;
+  }
+
+  .margin-bottom40px {
+    margin-bottom: 40px;
+  }
+
+  .margin-bottom60px {
+    margin-bottom: 60px;
+  }
+
+  .margin-bottom80px {
+    margin-bottom: 80px
+  }
+
+  .margin-bottom160px {
+    margin-bottom: 160px
+  }
+
+  .margin-left40px {
+    margin-left: 40px;
+  }
+
+  .margin-left50px {
+    margin-left: 50px;
+  }
+
+  .margin-left130px {
+    margin-left: 130px;
+  }
+
+  .margin-top15px--reverse {
+    margin-top: -15px;
+  }
+
+  .margin-top30px--reverse {
+    margin-top: -30px;
+  }
+
+  .margin-top180px--reverse {
+    margin-top: -180px;
+  }
+
+  .margin-top200px--reverse {
+    margin-top: -200px;
+  }
+
+  .margin-top350px--reverse {
+    margin-top: -350px;
+  }
+
+  .margin-top370px--reverse {
+    margin-top: -370px;
+  }
+
+  .margin-top400px--reverse {
+    margin-top: -400px;
+  }
+
+  .padding-left0px {
+    padding-left: 0px;
+  }
+
+  .padding-right0px {
+    padding-right: 0px;
+  }
+
+  .padding-right10px {
+    padding-right: 10px;
+  }
+
+  .padding-top50px {
+    padding-top: 50px;
+  }
+
+  .padding-top80px {
+    padding-top: 80px;
+  }
+
+  .padding-left70px {
+    padding-left: 80px;
+  }
+
+  .padding-left80px {
+    padding-left: 80px;
+  }
+
+  .padding-left100px {
+    padding-left: 100px;
+  }
+
+  .padding-left150px {
+    padding-left: 150px;
+  }
+
+  .padding-left160px {
+    padding-left: 160px;
+  }
+
+  .font-size3em {
+    font-size: 3em;
+  }
+
+  .text-yellow {
+    color: #fff100;
+  }
+
+  .text-bold {
+    font-weight: bold;
+  }
+
+  .width-auto {
+    width: auto;
+  }
+
+  .width-auto--force {
+    width: auto !important;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .testimonial-diver-photo {
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+
+  .testimonial-diver-rating {
+    padding-top: 50px;
+    margin-left: -70px;
+  }
+
+  .testimonial-diver-rating img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+
+  .testimonial-content-parent-box {
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+
+  .ready-to-dive-with-us-label-text-parent {
+    padding-top: 150px;
+  }
+
+  .ready-to-dive-with-us-btn-parent {
+    padding-top: 50px;
+  }
+
+  .ft-text-right {
+    padding-left: 390px
+  }
+
+  .photosby-boxes {
+    padding-left: 60px;
+  }
+
+  .cta-section .social-media-box {
+    padding-top: 130px;
+    padding-left: 150px;
+  }
+
+  .cta-section .socmed-icon-box {
+    padding-top: 110px;
+  }
+
+  .cta-section .socmed-icon-box img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .cta-section .gallery {
+    padding-top: 30px;
+    padding-left: 135px;
+  }
+
+  .ft-boxes {
+    margin-left: 120px;
+  }
+
+  .ft-text-left {
+    text-align: start;
+  }
+
+  .mp-welcome-section {
+    padding-left: 75px;
+  }
+
+  .partner-logo-boxes {
+    padding-left: 150px;
+  }
+  .footer-download-section h5,.footer-download-section div.d-flex {
+    padding-left: 15px;
+  }
+
+  /* 
+  ============================
+  ==envi adding for dropdown==
+  ============================
+  */
+  .dropdown {
+    display: none;
+  }
+
+  .dropdown{
+    position: absolute;
+    top: 120px;
+    background: black;
+    z-index: 20;
+    border-radius: 3px;
+  }
+  .dropdown-1,.dropdown-2 {
+    margin-top: 0px;
+  }
+  .dropdown-dive-center-location:hover {
+    background: #131e29;
+  }
+  .dive-center-location-text h3 {
+    font-size: 20px;
+  }
+  .dive-center-location-image img {
+    width: 80px;
+  }
+  .dropdown-dive-center-location {
+    width: auto;
+    justify-content: space-around;
+  }
+
+  .dropdown-dive-center-location a {
+    /*! margin: 0 !important; */
+  }
+  .dropdown.open{
+    display: block;
+  }
+  .lang-box {
+    position: relative;
+  }
+
+  .dropdown-2 {
+    left: 50px;
+    top: 60px;
+  }
+
+  .lang-boxes img {
+    width: 40px;
+    object-fit: contain;
+  }
+  .lang-boxes p {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 0;
+  }
+  .lang-boxes:hover{
+    background: #131e29
+  }
+  
+  .lang-boxes.active p {
+    color: black;
+  }
+  .lang-boxes.active {
+    background: #fff100;
+  }
+  .dropdown.dropdown-3 {
+    left: 210px;
+    top: 60px;
+    width: 150px;
+  }
+  .price-boxes p {
+    margin-bottom: 0;
+    font-size: 1.3rem;
+  }
+  .price-boxes {
+    height: 60px;
+  }
+  .price-boxes.active p {
+    color: #f8e71c;
+  }
+  .price-boxes p:hover {
+    color: #f8e71c;
+  }
+
+
+  /* Responsive Width & Height*/
+
+  @media screen and (max-width: 1680px) {
+
+
+    header a,
+    header a:hover {
+      font-size: 20px;
+    }
+
+    .lang-item,
+    .price-item {
+      font-size: 18px;
+    }
+
+    #home-slider .carousel-indicators {
+      bottom: 2%;
+    }
+
+    #home-slider .carousel-caption {
+      top: 40%;
+    }
+
+    .map-diveconcept {
+      background-size: 100%;
+    }
+
+    .spot-tulamben {
+      top: -7%;
+      right: 10%;
+    }
+
+    .spot-amed {
+      top: 8%;
+      right: 0%;
+    }
+
+    .active-spot-amed {
+      top: 10%;
+      right: -4%;
+    }
+
+    .spot-lembongan {
+      bottom: 40%;
+      right: 15%;
+    }
+
+    .active-spot-lembongan {
+      bottom: 31% !important;
+      right: 11.5% !important;
+    }
+
+    .active-spot-lembongan img {
+      bottom: 26%;
+      right: 25%;
+    }
+
+    .active-spot-lembongan h3 {
+      left: 135px;
+      text-align: left;
+      bottom: 22%;
+    }
+
+    .active-spot-tulamben {
+      top: -5% !important;
+      right: 8.5% !important;
+    }
+
+    .bubble-text {
+      margin-top: -20%;
+      background-size: 85%;
+    }
+
+    .map-tap-hint {
+      top: 22%;
+      width: 60%;
+      font-size: 20px;
+    }
+
+    #home-slider .carousel-caption {
+      left: 80px;
+    }
+
+    .icon-turtle {
+      top: 5%;
+    }
+
+    .bubble-text>h3 {
+      top: 21%;
+      font-size: 30px;
+    }
+
+    .bubble-text>p {
+      top: 32%;
+      font-size: 20px;
+      left: 25%;
+    }
+
+    .courses-type {
+      margin-left: 0px;
+    }
+
+    .available-courses-parent-box {
+      margin-left: 10px;
+    }
+
+    .available-courses {
+      margin-top: 30px;
+    }
+
+    .available-courses img,
+    .available-fun-dives-day-trip img {
+      width: 165px;
+      height: 165px;
+    }
+
+    .available-courses div.active::after,
+    .available-fun-dives-day-trip div.active::after {
+      width: 145px;
+      height: 145px;
+    }
+
+    .available-courses div.active img,
+    .available-fun-dives-day-trip div.active img {
+      width: 165px;
+      height: 165px;
+    }
+
+    .selected-courses-info .description {
+      max-width: 50%;
+      padding-left: 120px;
+    }
+
+    .selected-courses-info p {
+      font-size: 22px;
+    }
+
+    .selected-courses-info .price-btn-action {
+      padding-left: 228px;
+    }
+
+    .selected-courses-info {
+      height: 400px;
+    }
+
+    .fun-dives-day-trip-type {
+      margin-left: 0px;
+    }
+
+    .fun-dives-day-trip-list {
+      margin-top: 20px;
+    }
+
+    .available-fun-dives-day-trip-parent-box {
+      margin-left: 10px;
+    }
+
+    .available-fun-dives-day-trip {
+      margin-top: 30px;
+    }
+
+    .selected-fun-dives-day-trip-info .description {
+      padding-left: 120px;
+      max-width: 50%;
+    }
+
+    .selected-fun-dives-day-trip-info p {
+      font-size: 22px;
+    }
+
+    .selected-fun-dives-day-trip-info .price-btn-action {
+      padding-left: 228px;
+    }
+
+    .diver-safari-list {
+      margin-top: 179px;
+    }
+
+    .diver-safari-type {
+      margin-left: 0px;
+    }
+
+    .available-safari-courses-parent-box {
+      margin-left: 10px;
+    }
+
+    .diver-safari-info-left-side {
+      padding-top: 80px;
+      padding-left: 121px;
+      width: 50% !important;
+    }
+
+    .selected-diver-safari-info h2 {
+      font-size: 35px;
+    }
+
+    .diver-safari-info-left-side p {
+      width: 60%;
+      font-size: 17px;
+    }
+
+    .diver-safari-info-icon .col-4 {
+      max-width: 25%;
+    }
+
+    .diver-safari-info-icon .detail,
+    .diver-safari-info-icon .detailed {
+      font-size: 18px;
+    }
+
+    .dive-safari-dive-spot {
+      padding-top: 80px;
+      max-width: 54%;
+      padding-left: 0px;
+      /* margin-left: -150px; */
+    }
+
+    .dive-safari-dive-spot .thumbnail {
+      margin-right: 0px;
+      width: 120px;
+    }
+
+    .dive-safari-dive-spot p {
+      font-size: 14px !important;
+    }
+
+    .dive-safari-dive-spot .line {
+      /* margin-top: 135px; */
+    }
+
+    .dive-safari-dive-spot .thumbnail img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .custom-safari .content {
+      padding-left: 60px;
+      max-width: 40%;
+    }
+
+    .custom-safari .map {
+      padding-left: 420px;
+      padding-top: 50px;
+    }
+
+    .custom-safari {
+      height: 350px;
+    }
+
+    .custom-safari h2 {
+      font-size: 30px;
+    }
+
+    .custom-safari p {
+      font-size: 20px;
+    }
+
+    .custom-safari .btnAction {
+      width: 300px;
+      height: 60px;
+      font-size: 20px;
+    }
+
+    .col-6.text-center {
+      text-align: unset !important;
+    }
+
+    .dive-master-courses-list {
+      margin-top: 700px;
+    }
+
+    .dive-master-courses-type {
+      margin-left: 0px;
+    }
+
+    .available-dive-master-courses img {
+      width: 165px;
+      height: 165px;
+    }
+
+    .available-dive-master-courses div.active img {
+      width: 165px;
+      height: 165px;
+    }
+
+    .available-dive-master-courses div.active::after {
+      width: 145px;
+      height: 145px;
+    }
+
+    .available-dive-master-courses-parent-box {
+      margin-left: 90px;
+      margin-top: 280px;
+    }
+
+    .selected-dive-master-courses-info .description {
+      padding-left: 120px;
+      padding-top: 40px;
+      max-width: 50%;
+    }
+
+    .selected-dive-master-courses-info p {
+      font-size: 20px;
+    }
+
+    .selected-dive-master-courses-price {
+      padding-left: 240px;
+    }
+
+    .learn-more-dive-master {
+      padding-left: 60px;
+      max-width: 30%;
+    }
+
+    .icon-dive-master {
+      /* padding-right: 80px; */
+    }
+
+    .testimonial-column {
+      max-width: 40%;
+    }
+
+    .testimonial-diver-rating img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .testimonial-diver-rating {
+      margin-left: -30px;
+    }
+
+    .testimonial-content {
+      font-size: 16px;
+    }
+
+    #testimonial-slider ol {
+      left: 300px;
+    }
+
+    #testimonial-slider .carousel-control-prev {
+      left: 400px;
+    }
+
+    #testimonial-slider .carousel-control-next {
+      left: 615px;
+    }
+
+    .ready-to-dive-with-us-parent-box {
+      margin-left: -130px;
+    }
+
+    .footer-nitrox {
+      padding-left: 2%;
+    }
+
+    .footer-download-section {
+      padding-left: 5%;
+      max-width: 30%;
+      flex: 0 0 30%;
+    }
+
+    .footer-download-section h5,
+    .footer-download-section div.d-flex {
+      padding-left: 15px;
+    }
+
+    .partner-logo-boxes {
+      padding-left: 150px;
+      max-width: 65%;
+      flex: 0 0 65%;
+    }
+
+    .photosby-boxes {
+      padding-left: 70px;
+    }
+
+    .partner-logo-boxes img {
+      padding-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: 1680px) and (min-height: 1050px) {
+    .spot-tulamben {
+      top: -5%;
+    }
+
+    .spot-amed {
+      top: 10%;
+    }
+
+    .spot-lembongan {
+      bottom: 37%;
+    }
+
+    .selected-courses-info .price-btn-action {
+      padding-left: 260px;
+      /* max-width: 40%; */
+      flex: 0 0 40%;
+    }
+
+    .selected-fun-dives-day-trip-info .price-btn-action {
+      padding-left: 260px;
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .dive-safari-dive-spot {
+      margin-left: -100px;
+    }
+
+    .custom-safari .map {
+      margin-left: 25px;
+    }
+
+    .dive-safari-dive-spot .line {
+      width: 78%;
+    }
+
+    .selected-dive-master-courses-price {
+      padding-left: 260px;
+      max-width: 40%;
+      flex: 0 0 40%;
+    }
+
+    .icon-dive-master {
+      padding-right: 50px;
+    }
+
+    .ft-text-right {
+      padding-left: 330px;
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    .logo {
+      padding-left: 1%;
+    }
+
+    header a,
+    header a:hover {
+      font-size: 18px;
+    }
+
+    #home-slider .carousel-caption>h5 {
+      font-size: 25px;
+      height: auto;
+    }
+
+    #home-slider .carousel-caption>p {
+      font-size: 18px;
+    }
+
+    #home-slider .carousel-caption {
+      left: 55px;
+      top: 32%;
+    }
+
+    .active-spot-pemuteran {
+      top: -11%;
+      left: 13.9% !important;
+    }
+
+    .spot-pemuteran {
+      left: 14.9%;
+    }
+
+    .map-tap-hint {
+      top: 19%;
+      font-size: 18px;
+      left: 8%;
+    }
+
+    .spot-tulamben {
+      top: -8%;
+      right: 8%;
+    }
+
+    .active-spot-tulamben {
+      top: -8% !important;
+      right: 6% !important;
+    }
+
+    .bubble-text {
+      margin-left: 10px;
+      margin-top: -90px;
+    }
+
+    .icon-turtle {
+      top: 5%;
+      left: 35%;
+    }
+
+    .bubble-text>h3 {
+      top: 20%;
+      font-size: 28px;
+      left: 35%;
+    }
+
+    .bubble-text>p {
+      top: 31%;
+      font-size: 20px;
+      left: 35%;
+    }
+
+    .spot-amed {
+      top: 5%;
+      right: -1%;
+    }
+
+    .active-spot-amed {
+      top: 5% !important;
+      right: -5.7% !important;
+    }
+
+    .active-spot-lembongan {
+      bottom: 42% !important;
+      right: 10% !important;
+    }
+
+    .spot-lembongan {
+      bottom: 48%;
+      right: 14%;
+    }
+
+    .active-spot-lembongan {
+      bottom: 42.5% !important;
+      right: 9.5% !important;
+    }
+
+    .bubble-text {
+      background-size: 83%;
+    }
+
+    .bubble-text>p {
+      font-size: 18px;
+    }
+
+    .courses-type {
+      margin-left: -10px;
+    }
+
+    .available-courses-parent-box {
+      margin-left: -5px;
+    }
+
+    .available-courses img {
+      width: 135px;
+      height: 135px;
+    }
+
+    .available-courses div.active img {
+      width: 135px;
+      height: 135px;
+    }
+
+    .available-courses div.active::after {
+      height: 118px;
+      width: 118px;
+    }
+
+    .selected-courses-info h2 {
+      font-size: 35px;
+    }
+
+    .selected-courses-info p {
+      font-size: 18px;
+    }
+
+    .selected-courses-info .price-btn-action {
+      padding-left: 170px;
+    }
+
+    .selected-courses-info .description {
+      padding-left: 100px;
+    }
+
+    .courses-price-detail .findMoreBtn {
+      font-size: 20px;
+      width: 250px;
+      margin-top: 8px;
+    }
+
+    .courses-price-detail .amount {
+      font-size: 25px;
+    }
+
+    .courses-price-detail .cur {
+      font-size: 25px;
+    }
+
+    .fun-dives-day-trip-type {
+      margin-left: -10px;
+    }
+
+    .fun-dives-day-trip-list {
+      margin-top: 14px;
+    }
+
+    .available-fun-dives-day-trip {
+      margin-left: 65px;
+    }
+
+    .available-fun-dives-day-trip div.active img {
+      width: 135px;
+      height: 135px;
+    }
+
+    .available-fun-dives-day-trip img {
+      width: 135px;
+      height: 135px;
+    }
+
+    .available-fun-dives-day-trip div.active::after {
+      height: 118px;
+      width: 118px;
+    }
+
+    .selected-fun-dives-day-trip-info {
+      height: 380px;
+    }
+
+    .selected-fun-dives-day-trip-info .description {
+      padding-left: 100px;
+    }
+
+    .selected-fun-dives-day-trip-info h2 {
+      font-size: 35px;
+    }
+
+    .selected-fun-dives-day-trip-info p {
+      font-size: 18px;
+    }
+
+    .selected-fun-dives-day-trip-info .price-btn-action {
+      padding-left: 170px;
+    }
+
+    .fun-dives-day-trip-price-detail .cur {
+      font-size: 25px;
+    }
+
+    .fun-dives-day-trip-price-detail .amount {
+      font-size: 25px;
+    }
+
+    .fun-dives-day-trip-price-detail .findMoreBtn {
+      font-size: 20px;
+      width: 250px;
+      margin-top: 8px;
+    }
+
+    .diver-safari-list {
+      margin-top: 40px;
+    }
+
+    .diver-safari-type {
+      margin-left: -10px;
+    }
+
+    .diver-safari-list {
+      background-size: 80%;
+    }
+
+    .available-safari-courses-parent-box {
+      margin-left: -1px;
+    }
+
+    .diver-safari-info-left-side {
+      padding-left: 105px;
+    }
+
+    .dive-safari-dive-spot {
+      /* margin-left: -160px; */
+    }
+
+    .dive-safari-dive-spot .line {
+      width: 70%;
+    }
+
+    .custom-safari .content {
+      padding-left: 48px;
+    }
+
+    .custom-safari .map {
+      background-size: 65%;
+      padding-left: 350px;
+      padding-top: 30px;
+    }
+
+    .custom-safari .btnAction {
+      width: 250px;
+      height: 60px;
+      font-size: 18px;
+    }
+
+    .dive-master-courses-list {
+      margin-top: 850px;
+    }
+
+    .dive-master-courses-type {
+      margin-left: -10px;
+    }
+
+    .available-dive-master-courses-parent-box {
+      margin-left: 75px;
+    }
+
+    .selected-dive-master-courses-info h2 {
+      font-size: 35px;
+    }
+
+    .selected-dive-master-courses-info p {
+      font-size: 18px;
+    }
+
+    .selected-dive-master-courses-info .description {
+      padding-left: 100px;
+      padding-top: 15px;
+    }
+
+    .selected-dive-master-courses-price {
+      /* padding-left: 170px; */
+      padding-top: 15px;
+    }
+
+    .selected-dive-master-courses-price .cur {
+      font-size: 25px;
+    }
+
+    .selected-dive-master-courses-price .amount {
+      font-size: 25px;
+    }
+
+    .selected-dive-master-courses-price .findMoreBtn {
+      font-size: 20px;
+      width: 250px;
+      margin-top: 8px;
+    }
+
+    .learn-more-dive-master-parent-box {
+      margin-top: -280px;
+    }
+
+    .learn-more-dive-master {
+      padding-left: 30px;
+    }
+
+    .dive-master-icon-item {
+      margin-right: 50px;
+    }
+
+    .icon-dive-master {
+      padding-right: 230px;
+    }
+
+    .testimonial-slider-box-parent {
+      padding-left: 60px;
+    }
+
+    #testimonial-slider ol {
+      left: 300px;
+      bottom: -100px;
+    }
+
+    #testimonial-slider .carousel-control-prev {
+      left: 410px;
+      bottom: -85px;
+    }
+
+    #testimonial-slider .carousel-control-next {
+      left: 620px;
+      bottom: -85px;
+    }
+  }
+
+  @media screen and (max-width: 1366px) {
+
+    header a,
+    header a:hover {
+      font-size: 18px;
+    }
+
+    .lang-item,
+    .price-item {
+      font-size: 12px;
+    }
+
+    .price-item {
+      padding: 20px 30px;
+    }
+
+    .logo {
+      padding-left: 1.5%;
+    }
+
+    /* #home-slider .carousel-caption>h5 {
+      font-size: 25px;
+      height: unset;
+    }
+
+    #home-slider .carousel-caption>p {
+      font-size: 20px;
+    }
+
+    #home-slider .carousel-indicators {
+      bottom: 5%;
+    }
+
+    #home-slider .carousel-caption {
+      left: 11px;
+    } */
+
+    .active-spot-pemuteran {
+      top: -11%;
+      left: 13.9% !important;
+    }
+
+    .spot-pemuteran {
+      left: 14.9%;
+    }
+
+    .map-tap-hint {
+      top: 18%;
+      font-size: 18px;
+      left: 8%;
+    }
+
+    .spot-tulamben {
+      top: -8%;
+      right: 8%;
+    }
+
+    .active-spot-tulamben {
+      top: -8% !important;
+      right: 6% !important;
+    }
+
+    .bubble-text {
+      margin-left: 10px;
+      margin-top: -90px;
+    }
+
+    .icon-turtle {
+      top: 5%;
+      left: 35%;
+    }
+
+    .bubble-text>h3 {
+      top: 20%;
+      font-size: 28px;
+      left: 35%;
+    }
+
+    .bubble-text>p {
+      top: 31%;
+      font-size: 20px;
+      left: 35%;
+    }
+
+    .spot-amed {
+      top: 5%;
+      right: -1%;
+    }
+
+    .active-spot-amed {
+      top: 5% !important;
+      right: -5.7% !important;
+    }
+
+    .active-spot-lembongan {
+      bottom: 42% !important;
+      right: 10% !important;
+    }
+
+    .spot-lembongan {
+      bottom: 48%;
+      right: 14%;
+    }
+
+    .active-spot-lembongan {
+      bottom: 42.5% !important;
+      right: 9.5% !important;
+    }
+
+    .bubble-text {
+      background-size: 83%;
+    }
+
+    .bubble-text>p {
+      font-size: 18px;
+    }
+
+    .courses-type {
+      margin-left: -60px;
+    }
+
+    .available-courses img {
+      width: 125px;
+      height: 125px;
+    }
+
+    .available-courses div.active img {
+      width: 125px;
+      height: 125px;
+    }
+
+    .available-courses div.active::after {
+      width: 109px;
+      height: 109px;
+    }
+
+    .available-courses-parent-box {
+      margin-left: -50px;
+    }
+
+    .selected-courses-info .description {
+      padding-left: 50px;
+    }
+
+    .selected-courses-info .price-btn-action {
+      padding-left: 120px;
+    }
+
+    .fun-dives-day-trip-list {
+      margin-top: 4px;
+    }
+
+    .fun-dives-day-trip-type {
+      margin-left: -60px;
+    }
+
+    .available-fun-dives-day-trip img {
+      width: 125px;
+      height: 125px;
+    }
+
+    .available-fun-dives-day-trip div.active img {
+      width: 125px;
+      height: 125px;
+    }
+
+    .available-fun-dives-day-trip div.active::after {
+      width: 109px;
+      height: 109px;
+    }
+
+    .available-fun-dives-day-trip-parent-box {
+      margin-left: -50px;
+    }
+
+    .selected-fun-dives-day-trip-info .description {
+      padding-left: 50px;
+    }
+
+    .selected-fun-dives-day-trip-info .price-btn-action {
+      padding-left: 120px;
+    }
+
+    .selected-fun-dives-day-trip-info {
+      height: 430px;
+    }
+
+    .diver-safari-list {
+      margin-top: 84px;
+    }
+
+    .diver-safari-type {
+      margin-left: -60px;
+    }
+
+    .available-safari-courses-parent-box {
+      margin-left: -50px;
+    }
+
+    .diver-safari-info-left-side {
+      padding-left: 60px;
+    }
+
+    .dive-safari-dive-spot {
+      margin-left: -150px;
+      max-width: 50%;
+    }
+
+    .custom-safari {
+      height: 300px;
+    }
+
+    .custom-safari .content {
+      padding-left: 5px;
+    }
+
+    .custom-safari .map {
+      background-size: 55%;
+    }
+
+    .custom-safari .map {
+      padding-left: 300px;
+      padding-top: 30px;
+    }
+
+    .custom-safari .btnAction {
+      width: 250px;
+      height: 60px;
+      font-size: 18px;
+    }
+
+    .dive-master-courses-list {
+      margin-top: 800px;
+    }
+
+    .dive-master-courses-type {
+      margin-left: -60px;
+    }
+
+    .available-dive-master-courses img {
+      width: 125px;
+      height: 125px;
+    }
+
+    .available-dive-master-courses div.active img {
+      width: 125px;
+      height: 125px;
+    }
+
+    .available-dive-master-courses div.active::after {
+      width: 109px;
+      height: 109px;
+    }
+
+    .available-dive-master-courses-parent-box {
+      margin-left: 30px;
+    }
+
+    .selected-dive-master-courses-info-parent-box {
+      margin-top: -460px;
+    }
+    .selected-diver-safari-info {
+      padding-bottom: 100px;
+    }
+
+    .selected-dive-master-courses-info .description {
+      padding-left: 60px;
+    }
+
+    .selected-dive-master-courses-price {
+      padding-left: 120px;
+    }
+
+    .learn-more-dive-master {
+      padding-left: 0px;
+    }
+
+    .dive-master-icon-item {
+      margin-right: 30px;
+    }
+
+    .icon-dive-master {
+      padding-right: 300px;
+    }
+
+    .testimonial-list .box {
+      width: 70%;
+    }
+
+    .testimonial-slider-box-parent {
+      padding-left: 55px;
+    }
+
+    #testimonial-slider ol {
+      left: 270px;
+    }
+
+    /* #testimonial-slider .carousel-control-prev {
+      left: 380px;
+    }
+
+    #testimonial-slider .carousel-control-next {
+      left: 590px;
+    } */
+
+    .cta-section .social-media-box {
+      padding-left: 50px;
+    }
+
+    .cta-section .socmed-icon-box {
+      margin-left: -115px;
+    }
+
+    .cta-section .gallery {
+      padding-left: 50px;
+    }
+
+    .cta-section .gallery .row {
+      max-width: 84%;
+    }
+
+    .cta-section .gallery .col-4 {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .cta-section .ready-to-dive-with-us-text {
+      font-size: 35px;
+    }
+
+    .cta-section .desc-ready-to-dive-with-us-text {
+      font-size: 22px;
+      max-width: 40%;
+      width: 40%;
+    }
+
+    .ready-to-dive-with-us-parent-box {
+      margin-left: -290px;
+    }
+
+    .ready-to-dive-with-us-btn-parent img {
+      width: 380px;
+      height: 180px;
+    }
+
+    .footer-about-diveconcept {
+      padding-left: 50px;
+    }
+
+    .partner-logo-boxes {
+      padding-left: 50px;
+    }
+
+    .ft-text-left {
+      margin-left: -100px;
+    }
+
+    .ft-text-right {
+      padding-left: unset;
+      text-align: end;
+      margin-left: 73px;
+    }
+
+    .footer-about-diveconcept {
+      margin-left: unset;
+      margin-right: 100px;
+      padding-right: unset;
+      max-width: 30%;
+      flex: 0 0 30%;
+    }
+
+    .footer-nitrox {
+      margin-left: unset;
+      padding-right: unset;
+      margin-right: unset;
+      max-width: 30%;
+      flex: 0 0 30%;
+    }
+
+    .footer-download-section {
+      padding-left: unset;
+      margin-left: 55px;
+      padding-right: unset;
+      max-width: 25%;
+      flex: 0 0 25%;
+    }
+
+    .photosby-boxes {
+      padding-left: unset;
+      margin-left: 100px;
+    }
+
+    .selected-dive-master-courses-info {
+      height: 750px;
+    }
+
+    .learn-more-dive-master-parent-box {
+      margin-top: -50px;
+    }
+
+    .testimonial-list {
+      margin-top: 200px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    header a,
+    header a:hover {
+      font-size: 14px;
+    }
+
+    .logo img {
+      width: 150px;
+      height: 80px;
+    }
+
+    .lang-item img {
+      width: 15px;
+      height: 15px;
+    }
+
+    .lang-item {
+      padding: 15px 10px;
+    }
+
+    .price-item {
+      padding: 15px 15px;
+    }
+
+    .lang-box {
+      width: 18%;
+    }
+
+    /* #home-slider .carousel-caption {
+      top: 40%;
+    }
+
+    #home-slider .carousel-indicators {
+      bottom: 5%;
+    }
+
+    #home-slider img {
+      height: 100vh;
+    }
+
+    #home-slider .carousel-caption>h5 {
+      font-size: 18px;
+    }
+
+    #home-slider .carousel-caption>p {
+      font-size: 14px;
+    } */
+
+    .advantage-diveconcept-item {
+      margin-right: unset;
+      margin-left: 50px;
+    }
+
+    .mp-welcome-section {
+      padding-left: unset;
+      margin-left: -50px;
+    }
+
+    .map-diveconcept {
+      background-size: 80%;
+    }
+
+    .spot-pemuteran {
+      top: -12%;
+      left: 5% !important;
+    }
+
+    .active-spot-pemuteran {
+      top: -13.5%;
+      left: 0 !important;
+    }
+
+    .spot-pemuteran img {
+      position: static;
+      left: unset;
+      top: unset;
+    }
+
+    .active-spot-pemuteran img {
+      top: 25%;
+      position: absolute;
+      left: 26%;
+    }
+
+    .spot-tulamben {
+      top: -9%;
+      right: 26%;
+    }
+
+    .spot-tulamben img {
+      position: static;
+      left: unset;
+      top: unset;
+    }
+
+    .active-spot-tulamben {
+      top: -10.5% !important;
+      right: 18.5% !important;
+    }
+
+    .active-spot-tulamben img {
+      position: absolute;
+      left: 25%;
+      top: 26%;
+    }
+
+    .spot-amed {
+      top: 1%;
+      right: 15%;
+    }
+
+    .spot-amed img {
+      position: static;
+      top: unset;
+      left: unset;
+    }
+
+    .active-spot-amed {
+      top: 0 !important;
+      right: 8% !important;
+    }
+
+    .active-spot-amed img {
+      position: absolute;
+      top: 25%;
+      left: 26%;
+    }
+
+    .spot-lembongan {
+      bottom: unset;
+      right: 30%;
+      top: 21%;
+    }
+
+    .active-spot-lembongan {
+      bottom: unset !important;
+      right: 22% !important;
+      top: 15%;
+    }
+
+    .map-diveconcept h3 {
+      font-size: 14px;
+    }
+
+    .map-tap-hint {
+      top: 10%;
+      font-size: 12px;
+      left: -20%;
+    }
+
+    .bubble-text {
+      background-size: 75%;
+      margin-left: -60px;
+      margin-top: -140px;
+    }
+
+    .icon-turtle {
+      top: -10%;
+      left: 20%;
+    }
+
+    .bubble-text>h3 {
+      top: 7%;
+      left: 15%;
+    }
+
+    .bubble-text>p {
+      top: 18%;
+      left: 15%;
+      font-size: 15px;
+      max-width: 100%;
+    }
+
+    .dive-center-location {
+      margin-top: -200px;
+    }
+
+    .dive-center-location img {
+      width: 130px;
+      height: 130px;
+    }
+
+    .courses-type-list {
+      background-size: 70%;
+    }
+
+    .selected-courses-info .description {
+      padding-left: unset;
+      max-width: 100%;
+      flex: 0 0 100%;
+      padding-left: 50px;
+    }
+
+    .selected-courses-info p {
+      max-width: 40%;
+      width: 40%;
+    }
+
+    .selected-courses-info .price-btn-action {
+      padding-left: unset;
+      max-width: 100%;
+      flex: 0 0 100%;
+      padding-left: 50px;
+      margin-top: -100px;
+    }
+
+    .selected-courses-info {
+      height: 500px;
+    }
+
+    .fun-dives-day-trip-list {
+      margin-top: 104px;
+      background-size: 70%;
+    }
+
+    .available-fun-dives-day-trip-parent-box {
+      margin-left: -40px;
+    }
+
+    .selected-fun-dives-day-trip-info .description {
+      padding-left: 50px;
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+
+    .selected-fun-dives-day-trip-info p {
+      max-width: 40%;
+      width: 40%;
+    }
+
+    .selected-fun-dives-day-trip-info .price-btn-action {
+      padding-left: 50px;
+      max-width: 100%;
+      flex: 0 0 100%;
+      margin-top: -90px;
+    }
+
+    .selected-fun-dives-day-trip-info {
+      height: 500px;
+    }
+
+    .diver-safari-list {
+      margin-top: 154px;
+      background-size: 70%;
+    }
+
+    .diver-safari-info-left-side {
+      padding-left: 50px;
+    }
+
+    .dive-safari-dive-spot {
+      margin-left: -0px;
+      max-width: 100%;
+      flex: 0 0 100%;
+      padding-left: 40px;
+      margin-top: -150px;
+    }
+
+    .selected-diver-safari-info {
+      height: 1500px;
+    }
+
+    .diver-safari-info-right-side .col-12 {
+      max-width: 50%;
+      flex: 0 0 50%;
+    }
+
+    .dive-safari-dive-spot .line {
+      width: 40%;
+    }
+
+    .dive-master-courses-list {
+      margin-top: 1400px;
+      background-size: 70%;
+    }
+
+    .custom-safari .map {
+      background-image: unset;
+      padding-left: 50px;
+      padding-top: 0px;
+      max-width: 100%;
+      flex: 0 0 100%;
+      margin-top: -70px;
+    }
+
+    .icon-dive-master {
+      padding-right: 1200px;
+      max-width: 100%;
+      flex: 0 0 100%;
+      margin-top: 50px;
+    }
+
+    .testimonial-list {
+      margin-top: 350px;
+    }
+
+    .testimonial-column {
+      max-width: 30%;
+    }
+
+    .testimonial-slider-box-parent {
+      padding-left: 35px;
+      margin-top: -230px;
+    }
+
+    .testimonial-heading {
+      font-size: 15px;
+      text-align: center;
+      max-width: 50%;
+    }
+
+    .testimonial-diver-rating {
+      margin-left: 100px;
+      max-width: 100%;
+      flex: 0 0 100% !important;
+      margin-top: -25px;
+    }
+
+    .testimonial-diver-photo {
+      padding-top: 20px;
+      padding-left: unset;
+      margin-left: 150px;
+    }
+
+    .testimonial-list .box {
+      height: 500px;
+    }
+
+    .testimonial-list {
+      height: 850px;
+    }
+
+    #testimonial-slider ol {
+      left: 120px;
+    }
+
+    #testimonial-slider .carousel-control-prev {
+      left: 230px;
+    }
+
+    #testimonial-slider .carousel-control-next {
+      left: 445px;
+    }
+
+    .ready-to-dive-with-us-parent-box {
+      margin-top: -250px;
+      margin-left: -400px;
+      padding-left: 0px;
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+
+    .more-detail-about-divecenter {
+      margin-top: 500px !important;
+    }
+
+    .cta-section {
+      height: 1200px;
+      background-size: 1024px 1200px;
+    }
+
+    .more-detail-about-divecenter {
+      margin-top: -180px !important;
+    }
+
+    .more-detail-about-divecenter img {
+      width: 130px;
+      height: 130px;
+    }
+
+    .footer-download-section {
+      margin-left: 30px;
+    }
+
+    .cta-section .gallery {
+      margin-left: 150px;
+    }
+
+    .cta-section .social-media-box {
+      max-width: 100%;
+      flex: 0 0 100%;
+      margin-left: 330px;
+    }
+
+    .cta-section .socmed-icon-box {
+      margin-top: -80px;
+      margin-left: 330px;
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+
+    .more-detail-about-divecenter {
+      margin-top: 0px !important;
+    }
+
+    .more-detail-about-divecenter h2 {
+      font-size: 40px;
+      padding-left: 50px;
+    }
+
+    .more-detail-about-divecenter p {
+      font-size: 30px;
+      padding-left: 100px;
+    }
+  }
+
+  /* Responsive Device with DPI Greater than 100% */
+
+  /* alfara start */
+  @media screen and (min-width: 1920px) and (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 120dpi) {
+
+    /* alfara change */
+
+      .banner-cta{
+        max-width: 100%;
+        height: 380px;
+        background-image: url(/asset/img-alfara/cta-ssi-bg.png);
+      }
+
+      .carousel-control-next, .carousel-control-prev{
+        width: 3%;
+      }
+
+      .text-slider{
+        position: absolute;
+        color: white;
+      }
+
+      .text-slider h1{
+        height: 192px;
+        text-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+        font-family: DaxlinePro;
+        font-size: 96px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: #ffffff;
+        margin: 80px 0px 0px 170px;
+      }
+
+      .banner-cta .container-btn-cta{
+        padding: 70px 0px 0px 250px;
+      }
+
+      .wrap-tree{
+        width: 100%;
+        height: 300px;
+        background-color: #0f1720;
+      }
+
+      .wrap-tree div ul li{
+        height: 100px;
+        padding-top: 35px;
+        margin-left:-55px ;
+        font-family: DaxlinePro;
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 3.33px;
+        color: #c0c5ce;
+        background-color: #1a2735;
+        list-style-type: none;
+      }
+
+      .actived{
+        height: 100px;
+        padding-top: 35px;
+        margin-left:-55px ;
+        font-family: DaxlinePro;
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 3.33px;
+        background-color: #0f1720 !important;
+        list-style-type: none;
+      }
+
+      .tab-container{
+        padding: 0px 0px 0px 120px;
+      }
+
+      .tab-container h4{
+        font-family: DaxlinePro;
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        color: black;
+      }
+
+      .tab-container div img{
+        width: 240px;
+        height: 240px;
+      }
+
+      .wrap-tree div ul{
+        height: 300px;
+        text-align: center;
+      }
+
+      .cta-text p{
+    font-family: DaxlinePro;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #131e29;
+      }
+      
+      .cta-text{
+        padding: 82px 0px 0px 170px;
+      }
+
+      .content-first{
+        width: 100%;
+        height: 1970px;
+        background-color: #131e29;
+      }
+
+      .img-content{
+        margin: 50px 0px 0px 170px;
+      }
+
+      .img-content div hr{
+        margin: 35px 0px;
+      }
+
+      .img-content p{
+        color: white;
+      }
+
+      div .title-content{
+        padding: 0px 100px 0px 200px;
+        color: white;
+      }
+
+      div .icon-content{
+        padding: 60px 0px 0px 100px;
+      }
+
+      div .title-content div p{
+        line-height: 30px;
+      }
+
+      div .title-content h1{
+        margin: -20px 0px;
+      }
+
+      .icon-content h4{
+        color: white;
+        margin: 35px 0px 0px 0px;
+      }
+
+      .icon-content h4 img{
+        width: 30px;
+        height: 30px;
+      }
+
+    /* alfara change */
+
+
+    html{
+        overflow-x: hidden;
+    }
+
+    /* #home-slider .carousel-caption {
+      top: 35%;
+      left: 35px;
+    }
+
+
+
+    #home-slider .carousel-caption>h5 {
+      font-size: 90px;
+      height: unset;
+    }
+
+    #home-slider .carousel-caption>p {
+      font-size: 25px;
+    } */
+
+    .map-tap-hint {
+      top: 20%;
+      left: 10%;
+    }
+
+    .active-spot-pemuteran {
+      left: 13.8%;
+    }
+
+    .spot-tulamben {
+      right: 9%;
+    }
+
+    .active-spot-tulamben {
+      top: -7% !important;
+      right: 7.3% !important;
+    }
+
+    .bubble-text {
+      margin-top: -25%;
+    }
+
+    .spot-amed {
+      right: -1%;
+    }
+
+    .active-spot-amed {
+      right: -5.3% !important;
+      top: 8% !important;
+    }
+
+    .spot-lembongan {
+      bottom: 44%;
+    }
+
+    .active-spot-lembongan {
+      bottom: 38.5% !important;
+      right: 11% !important;
+    }
+
+    .courses-type {
+      margin-left: -25px;
+    }
+
+    .available-courses-parent-box {
+      margin-left: -20px;
+    }
+
+    .selected-courses-info .description {
+      padding-left: 85px;
+    }
+
+    .selected-courses-info .price-btn-action {
+      padding-left: 170px;
+    }
+
+    .fun-dives-day-trip-type {
+      margin-left: -25px;
+    }
+
+    .available-fun-dives-day-trip-parent-box {
+      margin-left: -20px;
+    }
+
+    .selected-fun-dives-day-trip-info .description {
+      padding-left: 85px;
+    }
+
+    .selected-fun-dives-day-trip-info .price-btn-action {
+      padding-left: 170px;
+    }
+
+    .diver-safari-type {
+      margin-left: -25px;
+    }
+
+    .available-safari-courses-parent-box {
+      margin-left: -20px;
+    }
+
+    .diver-safari-info-left-side {
+      padding-left: 90px;
+    }
+
+    .dive-safari-dive-spot {
+      margin-left: -205px;
+    }
+
+    .custom-safari .content {
+      padding-left: 35px;
+    }
+
+    .custom-safari .map {
+      padding-left: 355px;
+    }
+
+    .dive-master-courses-type {
+      margin-left: -25px;
+    }
+
+    .available-dive-master-courses-parent-box {
+      margin-left: 60px;
+    }
+
+    .selected-dive-master-courses-info .description {
+      padding-left: 85px;
+    }
+
+    .learn-more-dive-master {
+      padding-left: 20px;
+    }
+
+    .selected-dive-master-courses-price {
+      padding-left: 158.5px;
+    }
+
+    .icon-dive-master {
+      padding-right: 150px;
+    }
+
+    .dive-master-icon-item {
+      margin-right: 60px;
+    }
+
+    .testimonial-slider-box-parent {
+      padding-left: 100px;
+    }
+
+    #testimonial-slider .carousel-control-prev {
+      left: 405px;
+    }
+
+    .cta-section .social-media-box {
+      padding-left: 70px;
+    }
+
+    .cta-section .socmed-icon-box {
+      margin-left: -100px;
+    }
+
+    .cta-section .gallery {
+      padding-left: 55px;
+    }
+
+    .ready-to-dive-with-us-parent-box {
+      margin-left: -200px;
+    }
+
+    .footer-about-diveconcept {
+      padding-left: 80px;
+    }
+
+    .partner-logo-boxes {
+      padding-left: 80px;
+    }
+
+    .ft-boxes {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .ft-text-left {
+      padding-left: 60px;
+    }
+
+    .ft-text-right {
+      padding-left: 460px;
+    }
+
+    .photosby-boxes {
+      padding-left: 60px;
+    }
+  }
+
+  /* Responsive 1280px */
+
+  @media screen and (max-width: 1280px) {
+
+    header a,
+    header a:hover {
+      font-size: 14px;
+    }
+
+    #home-slider .carousel-caption>h5 {
+      font-size: 24px;
+    }
+
+    #home-slider .carousel-caption>p {
+      font-size: 18px;
+    }
+
+    #home-slider .carousel-indicators {
+      bottom: 12%;
+    }
+
+    .bubble-text {
+      margin-top: -45%;
+    }
+
+    .spot-lembongan,
+    .active-spot-lembongan {
+      bottom: 55% !important;
+      right: 16.5% !important;
+    }
+
+    .active-spot-lembongan {
+      bottom: 50% !important;
+      right: 9.5% !important;
+    }
+
+    .spot-amed {
+      right: -2%;
+      top: 2.8%;
+    }
+
+    .active-spot-amed {
+      right: -6% !important;
+      top: 2.8% !important;
+    }
+
+    .spot-tulamben {
+      right: 7%;
+      top: -9%;
+    }
+
+    .active-spot-tulamben {
+      right: 7% !important;
+      top: -9% !important;
+    }
+
+    .advantage-diveconcept-welcome-section {
+      margin-left: 50px;
+    }
+
+    .map-tap-hint {
+      top: 15%;
+      left: 10%;
+      font-size: 15px;
+    }
+
+    .dive-center-location {
+      margin-top: -150px;
+    }
+
+    .dive-center-location img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .selected-courses-info .price-btn-action {
+      padding-left: 0px;
+    }
+
+    .selected-fun-dives-day-trip-info .price-btn-action {
+      padding-left: 0px;
+    }
+
+    .dive-safari-dive-spot {
+      margin-left: -230px;
+    }
+
+    .custom-safari .map {
+      padding-left: 230px;
+    }
+
+    .selected-dive-master-courses-price {
+      padding-left: 0;
+    }
+
+    .dive-master-icon-item {
+      margin-right: 30px;
+    }
+
+    .icon-dive-master {
+      padding-right: 330px;
+    }
+
+    .learn-more-dive-master {
+      width: 25%;
+      max-width: 25%;
+    }
+
+    .testimonial-column {
+      max-width: 38%;
+    }
+
+    .testimonial-slider-box-parent {
+      padding-left: 40px;
+    }
+
+    #testimonial-slider ol {
+      left: 250px;
+    }
+
+    .testimonial-diver-rating {
+      margin-left: -10px;
+    }
+
+    #testimonial-slider .carousel-control-prev {
+      left: 365px;
+    }
+
+    #testimonial-slider .carousel-control-next {
+      left: 570px;
+    }
+
+    .ready-to-dive-with-us-parent-box {
+      margin-left: -400px;
+    }
+
+    .item-drive img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .ft-text-left {
+      padding-left: 160px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+
+    #home-slider {
+      width: 100%;
+    }
+    .selected-diver-safari-info{
+      height: auto;
+    }
+    .dive-master-courses-list {
+      margin-top: 800px;
+    }
+    .courses-gradient,
+    .courses-type-list,
+    .fun-dives-day-trip-list,
+    .diver-safari-list,
+    .diver-safari-gradient,
+    .selected-diver-safari-info,
+    .diver-safari-info-left-side,
+    .dive-master-courses-list,
+    .dive-master-courses-gradient,
+    .selected-courses-info,
+    .selected-fun-dives-day-trip-info
+    .selected-dive-master-courses-info,
+    .selected-dive-master-courses-info .description,
+    .testimonial-list,
+    .fun-dives-day-trip-gradient,
+    .cta-section,
+    .selected-dive-master-courses-info,
+    .selected-fun-dives-day-trip-info {
+      width: 100%;
+    }
+    .selected-fun-dives-day-trip-info.row,
+    .selected-courses-info.row{
+      margin-left: 0;
+    }
+    .selected-diver-safari-info {
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    .diver-safari-info-left-side {
+      padding-left: 135px;
+    }
+    .selected-dive-master-courses-info {
+      margin-left: 0;
+    }
+    .photosby-boxes{
+      padding-left: 93px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+      header a, header a:hover {
+        font-size: 14px;
+      }
+      #home-slider .carousel-caption > h5 {
+        font-size: 24px;
+      }
+      #home-slider .carousel-caption > p {
+        font-size: 18px;
+      }
+      #home-slider .carousel-indicators {
+        bottom: 12%;
+      }
+      .bubble-text {
+        margin-top: -45%;
+      }
+      .spot-lembongan,.active-spot-lembongan {
+        bottom: 55% !important;
+        right: 16.5% !important;
+      }
+      .active-spot-lembongan {
+        bottom: 50% !important;
+        right: 9.5% !important;
+      }
+      .spot-amed {
+        right: -2%;
+        top: 2.8%;
+      }
+      .active-spot-amed {
+        right: -6% !important;
+        top: 2.8% !important;
+      }
+      .spot-tulamben {
+        right: 7%;
+        top: -9%;
+      }
+      .active-spot-tulamben {
+        right: 7% !important;
+        top: -9% !important;
+      }
+      .advantage-diveconcept-welcome-section {
+        margin-left: 50px;
+      }
+      .map-tap-hint {
+        top: 15%;
+        left: 10%;
+        font-size: 15px;  
+      }
+      .dive-center-location {
+        margin-top: -150px;
+      }
+      .dive-center-location img {
+        width: 150px;
+        height: 150px;
+      }
+      .selected-courses-info .price-btn-action {
+        padding-left: 0px;
+      }
+      .selected-fun-dives-day-trip-info .price-btn-action {
+        padding-left: 0px;
+      }
+      .dive-safari-dive-spot {
+        margin-left: -230px;
+      }
+      .custom-safari .map {
+        padding-left: 230px;
+      }
+      .selected-dive-master-courses-price {
+        padding-left: 0;
+      }
+      .dive-master-icon-item {
+        margin-right: 30px;
+      }
+      .icon-dive-master {
+        padding-right: 330px;
+      }
+      .learn-more-dive-master {
+        width: 25%;
+        max-width: 25%;
+      }
+      .testimonial-column {
+        max-width: 38%;
+      }
+      .testimonial-slider-box-parent {
+        padding-left: 40px;
+      }
+      #testimonial-slider ol {
+        left: 250px;
+      }
+      .testimonial-diver-rating {
+        margin-left: -10px;
+      }
+      #testimonial-slider .carousel-control-prev {
+        left: 365px;
+      }
+      #testimonial-slider .carousel-control-next {
+        left: 570px;
+      }
+      .ready-to-dive-with-us-parent-box {
+        margin-left: -400px;
+      }
+      .item-drive img {
+        width: 150px;
+        height: 150px;
+      }
+      .ft-text-left {
+        padding-left: 160px;
+      }
+    }
+
+    /* Responsive 2560px */
+    @media screen and (min-width: 2560px) {
+
+      /* #home-slider .carousel-inner,#home-slider .carousel-inner .carousel-item img {
+        height: calc(100vh - 140px);
+      } */
+      #home-slider .carousel-control-prev {
+        left: -6.5%;
+      }
+      #home-slider .carousel-control-next {
+        right: -6.5%;
+      }
+      #home-slider .carousel-caption {
+        left: 450px;
+        top: 45%;
+      }
+      .diveconcept-map-section-at-welcome-section .mp-welcome-section {
+        padding-left: 390px;
+      }
+      #home-slider .carousel-indicators {
+        bottom: 15%;
+      }
+      .map-tap-hint {
+        left: 15%;
+        width: 45%;
+      }
+      .active-spot-pemuteran {
+        left: 30%;
+      }
+      .spot-pemuteran {
+        left: 30%;
+      }
+      .spot-tulamben {
+        top: -6%;
+        right: 20%;
+      }
+      .active-spot-tulamben {
+        top: -6%;
+        right: 19%;
+      }
+      .spot-amed {
+        top: 12%;
+        right: 13.5%;
+      }
+      .active-spot-amed {
+        top: 13%;
+        right: 11%;
+      }
+      .spot-lembongan {
+        bottom: 33%;
+        right: 24%;
+      }
+      .active-spot-lembongan {
+        bottom: 26%;
+        right: 22%;
+      }
+      .active-spot-lembongan img {
+        position: absolute;
+        top: 25%;
+      }
+      .diveconcept-map-section-at-welcome-section .col-3 {
+        margin-left: -180px;
+      }
+      .bubble-text {
+        margin-top: -15%;
+      }
+      .icon-turtle {
+        left: 20%;
+      }
+      .bubble-text > h3 {
+        left: 20%;
+      }
+      .bubble-text > p {
+        left: 20%;
+      }
+      .all-dive-center-location {
+        margin-left: -200px;
+      }
+      .all-dive-center-location img {
+        margin-right: 50px;
+      }
+    }
+   
+   /*css wira*/
+    .corse-di img{
+    width: 240px;
+    height: 240px;
+  }
+  .bg{background-color: #131e29}
+  .white-text{color:white}
+  .p-a-20{padding: 20px}
+  .sec-2 .line {margin-top: 20px  !important}
+  .list-sec-2 img{width: 45px;height: auto;}
+  .p-t-150{padding-top: 150px}
+  .p-t-100{padding-top: 100px}
+  .p-t-70{padding-top: 70px}
+  .p-t-30{padding-top: 30px}
+  .p-b-150{padding-bottom: 150px}
+  .p-b-200{padding-bottom: 200px}
+  .title-why{font-size: 8rem;
+    position: absolute;
+    left: -90px;
+    top: -105px;
+    opacity: 0.4;
+  }
+  .sec-3{
+    background-image: url('../img/cta-ssi-bg.jpg');
+    height: auto;
+    padding: 100px 0;
+    font-family: daxline;
+  }
+  .sec-3 p{
+    width: 300px;
+
+    font-size: 2.3rem
+  }
+  .sec-1{
+    background-image: url('../img/dsc-03970.jpg');
+    height: calc(100vh - 140px);
+    font-family: daxline;
+
+  }
+  .sec-1 h2{
+    font-size:4rem !important;z-index: 9;
+  }
+  .sec-1 p{font-size: 1.5rem;z-index: 9;}
+  .gradient {
+    width: 100%;
+    height: 640px;
+    background-image: linear-gradient(to bottom, rgba(5, 67, 154, 0) 19%, #131e29);
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+  }
+  .text-red{color: #ff3027   }
+  .sec-4{
+    background-color:   #0f1720;
+    padding: 0;  height: 300px;
+    font-family: daxline;
+  }
+  .items-sec-4{
+    padding: 30px 0px;
+  }.sec-4 .actived{
+    background-color:   #0f1720;
+  }
+  .items-ac{
+    width: 100%;
+    height: 100px;
+  }
+  .items-r-sec-4 a{margin-right: 30px;}
+  .slider-sec img{
+    width: 200px !important;
+    height: auto !important;
+  }
+  .sec-8{
+    background-image: url('../img/cta-go-pro-bg.jpg');
+    height: auto;
+    font-family: daxline;
+  }
+  .sec-8 p{
+    font-size: 1.5rem ;
+  }
+  .sec-8 h3{font-size: 3rem !important;}
+  button{ width: 400px;
+  height: 80px;
+  border-radius: 12px;
+  background-color: #ffffff;}
+  .sec-7{
+      background-image: radial-gradient(circle at 100% 0, #65737e, #1a1f23 101%) !important;;
+      padding: 50px;
+      font-family: daxline;
+    }
+    .sec-7 h3{font-size: 3rem;}
+  .aea{
+    width: 225px;
+    height: 33px;
+    transform: rotate(-30deg);
+    font-family: OpenSans;
+    font-size: 24px !important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: -15px;
+  }
+  .zx {
+    position: absolute;
+    top: 0
+   }
+   .cta-special{
+     position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    }
+    .sec-7 i{
+      color: #ff4c4c;
+      font-size: 80px;
+      margin: 20px;
+    }
+.sec-6{
+font-family: daxline;
+
+}
+.sec-6 .items{
+font-size: 24px;
+background-color: #1a2735;
+}
+.sec-6 .items div p{width: 100%;
+padding: 30px;}
+.sec-6 .actived{background-color: #0f1720;}
+.colwar{background-color: #0f1720;}
+.colwar2{background-color:  #131e29;}
+.sec-6 .safari-line-1 ,.sec-6 .line{margin-top: 30px;width: 100%}
+.sec-6 .info-items img{
+width: 220px;
+height: 220px;
+}
+.sec-6 .dive-safari-dive-spot .thumbnail{  width: 220px;margin-right: 70px;}
+.sec-6 .info-items p{font-size: 2rem ;}
+.sec-6 button{
+width: 220px;
+height: 50px;
+border-radius: 25px;
+background-color: #fff100;
+border: 0;
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.sec-6 .info-items h4 { font-size: 2rem}
+.sec-6 .info-items p { font-size: 1.3rem !important;max-width: 1200px;padding-right: 200px;}
+.sec-6 .description{padding-left: 20px;}
+.list-sec-2{padding-left: 70px}
+.list-sec-2 p{font-size: 2rem}
+.list-sec-2 img{width: auto;height: 35px;margin-right: 40px;}
+.list-sec-2 div.d-flex div{
+width: 100px;
+text-align: center;
+}
+.sec-9{
+font-family: daxline;
+padding: 80px 0;
+}
+.sec-9 .diver-safari-info-left-side h2{font-size: 2.8rem}
+.sec-9 .diver-safari-info-left-side h2+p{font-size: 1.8rem}
+.btn-asw-cta{
+font-family: daxline;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #ffffff;
+  background-color: transparent;
+  width: 300px;
+  height: 80px;
+  border-radius: 12px;
+  border: solid 3px #fff100;
+  margin: 50px 0;
+}
+.ctci{height: 92vh;max-height: 1920px;max-width: 1750px;}
+.ctci h2{
+font-size: 5rem;
+width: 850px;
+text-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+font-family: daxline;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: normal;
+color: #ffffff;
+position: absolute;
+top: 100px
+}
+.easemy #home-slider .carousel-caption{
+position: relative;
+top:0 !important;
+}
+.easemy .carousel-item img{
+position: absolute ;
+}
+.items-box-foto-text{
+position: absolute;
+bottom: 0px;
+}
+.items-box-foto-text p{
+font-size: 30px;
+max-width: 700px;
+}
+.easemy #home-slider .carousel-item img {
+height: 92vh ;
+}
+.easemy .full-height{height: 91vh !important;}
+.items-box-foto-text img{
+width: 240px !important;
+height: 240px !important;
+position: relative !important;
+margin-right: 30px;
+}
+.tab-crti>img{
+height: 270px !important; 
+}
+.tab-crti .cov-crti{
+position: absolute;top: 0;
+width: 240px;
+height: 270px;
+box-sizing: border-box;
+padding-bottom: 40px;
+}
+.tab-crti .cov-crti img{
+margin-right: 0;
+width: 90px !important;
+height: auto !important;
+padding-top: 30px;
+}
+.tab-crti .cov-crti p{
+width: 100%;
+text-align: center;
+margin-top: -80px;
+}
+>>>>>>> 824b84aa7695eb01f29aa1c07eaced6f9bbb86fc
+

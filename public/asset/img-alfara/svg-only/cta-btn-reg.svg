@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="80" viewBox="0 0 400 80">
+    <defs>
+        <rect id="a" width="400" height="80" rx="12"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#131E29" xlink:href="#a"/>
+            <rect width="397" height="77" x="1.5" y="1.5" stroke="#FFF100" stroke-width="3" rx="12"/>
+        </g>
+        <text fill="#FFF" font-family="DaxlinePro-Bold, DaxlinePro" font-size="24" font-weight="bold" letter-spacing="4">
+            <tspan x="96.644" y="50">REGISTER NOW</tspan>
+        </text>
+    </g>
+</svg>

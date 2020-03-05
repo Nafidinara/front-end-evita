@@ -1,0 +1,1658 @@
+
+@font-face {
+    font-family: 'daxline';
+    src: url('font/DaxlinePro-Regular_13131.ttf'); /* IE9 Compat Modes */
+    src: url('font/DaxlinePro-Regular_13131.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/DaxlinePro-Regular_13131.ttf') format('woff'), /* Modern Browsers */
+       url('font/DaxlinePro-Regular_13131.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/DaxlinePro-Regular_13131.ttf') format('svg'); /* Legacy iOS */
+ }
+
+ @font-face {
+    font-family: 'daxline';
+    font-weight: bold;
+    src: url('font/DaxlinePro-Bold_13127.ttf'); /* IE9 Compat Modes */
+    src: url('font/DaxlinePro-Bold_13127.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('font/DaxlinePro-Bold_13127.ttf') format('woff'), /* Modern Browsers */
+         url('font/DaxlinePro-Bold_13127.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('font/DaxlinePro-Bold_13127.ttf') format('svg'); /* Legacy iOS */
+ }
+
+ @font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('font/HelveticaNeueMedium.ttf');
+ }
+
+ @font-face {
+    font-family: 'helveticaneuelight';
+    src: url('font/HelveticaNeueLight.ttf');
+ }
+
+ @font-face {
+    font-family: 'opensans';
+    src: url('font/OpenSans-Regular.ttf');
+ }
+
+ @font-face {
+    font-family: 'opensansbold';
+    src: url('font/OpenSans-Bold.ttf');
+}
+body{
+    font-family: daxline !important;
+}
+.yellow{
+    color: #fff100 !important;
+}
+.white{
+    color: #fff !important;
+}
+.grey{
+    color: #c0c5ce !important;
+}
+.red{
+    color: #ff3027 !important;
+}
+.no-padding{
+    padding:0 !important;
+}
+.hide{
+    display: none !important;
+}
+.logo{
+    width: 200px;
+    height: 45px;
+}
+.small-logo{
+    width: 50px;
+    height: 50px;
+}
+.xs-logo{
+    width: 20px;
+    height: 20px;
+}
+.med-logo{
+    width: 120px;
+    height: 120px;
+}
+.lag-logo{
+    width: 250px;
+    height: 250px;
+}
+.med-map{
+    width: 330px;
+    height: 230px;
+    margin: 60px 0 30px 0;
+}
+.f-small{
+    font-size: 8px !important;
+}
+.f-med{
+    font-size: 10px !important;
+}
+.f-lag{
+    font-size: 12px !important;
+    color: #c0c5ce;
+}
+.f-large{
+    font-size: 12px !important;
+}
+.f-x-large{
+    font-size: 14px !important;
+}
+.f-super-large{
+    font-size: 24px !important;
+}
+.head-menu{
+    width: 100%;
+    height: 75px;
+    background-color: #000000;
+}
+.head-logo{
+    width: 60%;
+    height: 75px;
+}
+.ham-menu{
+    width: 40%;
+    height: 75px;
+
+}
+.menu-icon{
+    width: 20px;
+}
+.head-slider{
+    width: 100%;
+    height: 100vh;
+    background-color: #131E29;
+    overflow: hidden;
+}
+.back-logo{
+    position: absolute;
+    z-index: 0;
+    right: -40px;
+    top: 390px;
+}
+.section-concept{
+    width: 100%;
+    height: 1250px;
+    overflow: hidden;
+    position: relative;
+    background-color: #131e29;
+}
+.section-concept-icon{
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+    background-color: #131e29;
+}
+.section-dive{
+    width: 100%;
+    height: 600px;
+    background-image: url('../asset/img/image.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.section-spot{
+    width: 100%;
+    height: 552px;
+    background-image: url('../asset/img/image-turtle.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.section-sea{
+    width: 100%;
+    height: 550px;
+    background-image: url('../asset/img/image-sea.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.section-course-master{
+    width: 100%;
+    height: 280px;
+    background-color: #131e29;
+    overflow: hidden;
+}
+.section-safari{
+    width: 100%;
+    height: 350px;
+    background-color: #131e29;
+    overflow: hidden;
+}
+.section-list{
+    width: 100%;
+    height: 480px;
+    background-color: #131e29;
+    overflow: hidden;
+}
+.section-testimoni{
+    width: 100%;
+    height: 300px;
+    background-color: #131e29;
+    overflow: hidden;
+    position: relative;
+}
+.section-custom{
+    width: 100%;
+    height: 150px;
+    background-image: radial-gradient(circle at 0 -27%, #fff383, #ffe44c 58%);
+    overflow: hidden;
+}
+.section-div{
+    width: 100%;
+    height: 374px;
+    background-image: url('../asset/img/image-div.png');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.section-join{
+    width: 100%;
+    height: 574px;
+    background-image: url('../asset/img/cta-bg-mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.section-career{
+    width: 100%;
+    height: 500px;
+    background-color: #131e29;
+    overflow: hidden;
+}
+.section-detail{
+    width: 100%;
+    height: 240px;
+    background-image: radial-gradient(circle at 50% 0, #131e29, #000000 111%);
+    overflow: hidden;
+}
+.index{
+    position: relative;
+    z-index: 999;
+}
+.ci-list{
+    width: 100%;
+    height: 400px;
+    /* background: red; */
+}
+.ci-item{
+    width: 100%;
+    height: 150px;
+}
+.ci-item-child{
+    width: 120px;
+    height: 150px;
+}
+.ci-first:nth-child(2){
+    height: 140px;
+}
+.ci-icon{
+    width: 70px;
+    height: 70px;
+}
+.map{
+    position: relative;
+    /* overflow: hidden; */
+}
+.indicator{
+    width: 80px;
+    height: 90px;
+    position: absolute;
+}
+.indicator-active{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    top: 25px;
+    position: absolute;
+}
+.indicator-logo{
+    width: 25px;
+    height: 25px;
+    z-index: 2;
+    top: 38px;
+    left: 28px;
+    position: absolute;
+}
+.indicator-logo-l{
+    width: 25px;
+    height: 25px;
+    z-index: 2;
+    position: relative;
+}
+.pamuteran{
+    top: 10px;
+    left: 10px;
+}
+.tulamben{
+    top: 20px;
+    right: 30px;
+}
+.amed{
+    top: 65px;
+    right: -25px;
+}
+.lembongan{
+    top: 215px;
+    right: -5px; 
+}
+.indicator span{
+    font-size: 10px;
+}
+.bubble-hori{
+    width: 300px;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    
+}
+.bubble-tip{
+    width: 100%;
+    height: 100px;
+    position: relative  ;
+}
+.map-tip{
+    width: 70%;
+    font-size: 9px;
+    padding: 4px 8px;
+    background: #343d46;
+    text-align: center;
+    border-radius: 9px;
+    position: absolute;
+    top: 128px;
+    left: 65px;
+}
+.turtle{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.bubble-tip-text{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 25px;
+    left: 110px;
+}
+.tab-loc{
+    width: 100%;
+    height: auto;
+}
+.tab-loc-child{
+    margin: 0 2px 0 2px;
+}
+.tab-loc-img{
+    width: 80px;
+    height: 80px;
+}
+.title-dive{
+    width: 80%;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 40px auto 0 auto;
+    position: relative;
+    z-index: 99;
+}
+.title-career{
+    width: 80%;
+    position: relative;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.title-dive-div{
+    width: 60%;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 40px auto 0 auto;
+    position: relative;
+    z-index: 99;
+}
+.tab-gradient{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, #00a1d1, rgba(0, 138, 189, 0));
+}
+.tab-gradient-turtle{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, #014683, rgba(0, 138, 189, 0));
+}
+.tab-gradient-sea{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, #00a1d1, rgba(0, 138, 189, 0));
+}
+.tab-dive{
+    width: 100%;
+    height: 120px;
+    margin: 188px 0 0 0;
+    background: linear-gradient(to bottom, rgba(43, 64, 82, 0) 20%, #131e29 86%);
+}
+.tab-dive-turtle{
+    width: 100%;
+    height: 120px;
+    margin: 161px 0 0 0;
+    background: linear-gradient(to bottom, rgba(43, 64, 82, 0) 20%, #131e29 86%);
+}
+.dive-tip{
+    width: 80%;
+    font-size: 12px;
+    margin: auto;
+    padding: 2px;
+    border: solid 1px #ffffff;
+    background-color: rgba(19, 30, 41, 0.72);
+    border-radius: 34px;
+}
+.tab-loc-dive{
+    width: 105%;
+    overflow: hidden;
+    position: relative;
+}
+.tab-loc-dive-div{
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+}
+.tab-loc-dive-child{
+    width: 90px;
+    height: 80px;
+    position: relative;
+    /* display: block;
+    margin: 10px;
+    border: 1px solid black; */
+}
+.dive-icon{
+    width: 78px;
+    height: 78px;
+    top: -4px;
+    left: -4px;
+    position: absolute;
+}
+.dive-indicator{
+    width: 70px;
+    height: 72px;
+    position: absolute;
+}
+.dive-price{
+    margin: 30px 0 0 0;
+}
+.list-loc-icon{
+    width: 75px;
+    height: 75px;
+    margin-right: 6px;
+}
+.list-desc{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+.list-child{
+    margin-top: 10px;
+    height: auto;
+    position: relative;
+    border-bottom: 1px solid #65737e;
+}
+.dive-price-list{
+    background: #131e29;
+}
+.button-grey{
+    background-color: #343d46;
+}
+.tab-career{
+    width: 100%;
+    height: 120px;
+}
+.icon-career{
+    width: 25%;
+    height: 120px;
+    /* border: 1px solid black; */
+}
+.logo-career{
+    width: 60px;
+    height: 60px;
+}
+.btn-career{
+    border: 1px solid yellow !important;
+    background-color: #131e29;
+    color: #fff;
+    padding: 10px 20px !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+.testimonial-banner{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4f5b66;
+    left: -3px;
+    z-index: 1;
+}
+.testi-slider{
+    width: 100%;
+    height: 160px;
+    position: relative;
+    z-index: 2;
+    margin: 30px 0 0;
+}
+.testi-slider-nav{
+    margin-top: 60px;
+}
+.testi-child{
+    width: 100%;
+    height: 200px;
+    background: white;
+    border-radius: 6px;
+    position: relative;
+}
+.testi-user-img{
+    width: 90px;
+    height: 90px;
+    background: red;
+    border-radius: 50%;
+}
+.testi-desc{
+    width: 65%;
+}
+.star{
+    width: 15px;
+    height: 15px;
+}
+.pick{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    top: 10px;
+}
+.testi-nav-child{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    margin: 0 4px 0;
+    border-radius: 50% !important;
+}
+.ts-active{
+    background-color: #fff100;
+}
+.cta-btn{
+    width: 200px;
+    margin: 40px auto 0;
+}
+.social-icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.join-slider{
+    position: relative;
+    height: 150px;
+}
+.join-slider-main{
+    position: absolute;
+    width: 105%;
+    height: 150px;
+}
+.join-slider-child{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin-right: 10px;
+}
+.detail-icon-child{
+    width: 70px;
+    height: 70px;
+    margin: 0 4px 0;
+}
+.footer{
+    height: 600px;
+    background: #131e29; 
+    overflow: hidden;
+}
+.footer-dev-logo{
+    width: 80px;
+    height: 80px;
+}
+.footer-left{
+    padding: 0 0 0 10px !important;
+}
+.opct{
+    opacity: .7;
+}
+.nitrox-logo{
+    width: 90px;
+    height: 90px;
+}
+.first-footer{
+    height: 400px;
+}
+.badge-app{
+    width: 90px;
+    height: auto;
+}
+.sponsor{
+   background-color: #131e29; 
+   height: 130px;
+}
+.sponsor-icon{
+    width: 50px;
+}
+.refill{
+    width: 40px;
+}
+.shark{
+    width: 60px;
+}
+.assure{
+    width: 80px;
+}
+.advisor{
+    width: 70px;
+}
+.down-footer{
+    height: 40px;
+    background: #000;
+}
+.testi-arrow-left{
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    top: 125px;
+    left: 0;
+    z-index: 99;
+    background: url('../asset/img/arrow-left.png');
+    background-repeat: none;
+    background-size: 10px 20px;
+}
+.testi-arrow-right{
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    top: 125px;
+    right: 0;
+    z-index: 99;
+    background: url('../asset/img/arrow-right.png');
+    background-repeat: none;
+    background-size: 10px 20px;
+}
+.carousel-caption {
+    right: unset !important;
+    left: 5% !important;
+    text-align: left !important;
+    max-width: 90%;
+}
+.carousel-indicators{
+    bottom: 10px !important;
+}
+.carousel-indicators li{
+    width: 20px !important;
+    height: 20px !important;
+    border: 1px solid #fff !important;
+    margin: 0 4px 0 !important;
+    border-radius: 50% !important;
+    background-color: transparent !important;
+}
+.carousel-indicators .active{
+    background-color: #fff100 !important;
+}
+.carousel-control-prev{
+    opacity: 1 !important;
+    z-index: 3;
+    left: -18px !important;
+}
+.carousel-control-next{
+    opacity: 1 !important;
+    z-index: 3;
+    right: -18px !important;
+}
+.carousel-control-prev-icon{
+    background:  url('../asset/img/arrow-left.png') !important;
+    background-size: 14px 26px !important;
+    background-repeat: none !important;
+    width: 13px !important;
+    height: 25px !important;
+}
+.carousel-control-next{
+    opacity: 1 !important;
+}
+.carousel-control-next-icon{
+    background:  url('../asset/img/arrow-right.png') !important;
+    background-size: 14px 26px !important;
+    background-repeat: none !important;
+    width: 13px !important;
+    height: 25px !important;
+}
+.circle-prev{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    border-radius: 50%;
+    left: -25px;
+    top: 292px;
+    opacity: 0.4;
+}
+.circle-next{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    border-radius: 50%;
+    right: -25px;
+    top: 292px;
+    opacity: 0.4;
+}
+.main-menu{
+    position: fixed;
+    width: 95%;
+    height: 100vh;
+    background-color: #000;
+    z-index: 1000;
+    right: 0;
+}
+.close-icon{
+    width: 20px;
+    height: 20px;
+}
+.menu-wrapper{
+    width: 90%;
+    height: 640px;
+    padding-left: 30px;
+}
+.menu-list{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #131e29;
+}
+.icon-dive{
+    width: 100%;
+    height: auto;
+}
+.icon-dive-child{
+    width: 60px;
+    height: auto;
+}
+.menu-etc{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+}
+.flag{
+    width: 65%;
+    height: 25px;
+    background-color: #131e29;
+    margin: 1px 0 0 20px;
+    border-radius: 10px;
+}
+.currency{
+    width: 40%;
+    height: 25px;
+    background-color: #131e29;
+    margin: 1px 0 0 35px;
+    border-radius: 10px;
+}
+.flag-child{
+    width: 24px;
+    margin: 1px 0 0 7px;
+}
+.cur-child{
+    width: 24px;
+    margin: 1px 0 0 7px;
+    
+}
+.f-active{
+    border: 1px solid #fff100;
+}
+.c-active{
+    color: #fff100 !important;
+    font-weight: bold;
+}
+
+/* dive course */
+
+.section-course{
+    height: 100vh;
+    background-image: url('../asset/img/dsc-03970.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+}
+.section-why{
+    height: 120vh;
+    background-color: #131e29;
+    position: relative;
+    overflow: auto;
+}
+.section-loc{
+    height: 18vh;
+    background-color: #131e29;
+    position: relative;
+    overflow: auto;
+}
+.section-scuba{
+    height: 30vh;
+    background-image: url('../asset/img/cta-ssi-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-offer{
+    height: 30vh;
+    background-image: radial-gradient(circle at 100% 0, #65737e, #1a1f23 101%);
+    position: relative;
+    overflow: hidden;
+}
+.section-gopro{
+    height: 30vh;
+    background-image: url('../asset/img/cta-go-pro-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-tab-course{
+    height: 30vh;
+    background: #0f1720;
+    padding: 0 !important;
+
+}
+.section-advance{
+    height: 100vh;
+    background: url('../asset/img/advanced-course.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    position: relative;
+}
+.section-rate{
+    width: 100%;
+    height: 410px;
+    background-color: #131e29;
+    overflow: hidden;
+}
+.section-feed{
+    width: 100%;
+    height: 580px;
+    background-color: #0f1720;
+    overflow: hidden;
+}
+.why{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 150px;
+    z-index: 0;
+
+}
+.shader{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgba(5, 67, 154, 0) 44%, #131e29 97%);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.check-out{
+    position: absolute;
+    bottom: 0;
+    margin: 0 !important;
+    z-index: 2;
+}
+.should-you{
+    z-index: 2;
+    position: relative;
+    margin-top: 100px;
+}
+.course-dive-icon{
+    width: 34px;
+}
+.course-guide-icon{
+    width: 24px;
+}
+.course-price-icon{
+    width: 28px;
+}
+.course-certi-icon{
+    width: 24px;
+}
+.fs-course{
+    font-size: 15px !important;
+}
+.map-pin{
+    width: 60px;
+    position: absolute;
+    left: 0;
+}
+.loc-title{
+    z-index: 2;
+    top: 40px;
+    position: relative;
+}
+.list-course{
+    height: 440px !important;
+}
+.register-to-the{
+    font-size: 19px !important;
+}
+.ssi-logo{
+    width: 130px;
+}
+.cta-course-btn{
+    width: 170px;
+}
+.tab-course{
+    padding: 20px 0 !important;
+    color: #c0c5ce !important;
+    background-color: #1a2735;
+    text-align: center;
+    font-weight: 600;
+}
+.tab-c-active{
+    color: #ffffff !important;
+    background-color: #0f1720;
+}
+.tab-course-icon{
+    background-color: #0f1720;
+    padding: 0 20px 0 0 !important;
+}
+.tab-course-child{
+    height: 130px;
+}
+.tab-i-active{
+    width: 120px;
+    position: absolute;
+    z-index: 1;
+}
+.course-icon-child{
+    width: 80px;
+    position: absolute;
+    z-index: 2;
+    top: 28px;
+}
+.advance{
+    color: #ffffff;
+    text-shadow: 0 4px 20px #343d46;
+}
+.course-slide-left{
+    width: 40px;
+    height: 50%;
+    position: absolute;
+    left: 0;
+}
+.course-slide-right{
+    width: 40px;
+    height: 50%;
+    position: absolute;
+    right: 0;
+}
+.course-arrow{
+    width: 40px;
+    display: block;
+}
+.tab-adv{
+    height: 90px;
+    /* background: red; */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 5px 0 0 !important;
+}
+.course-desc{
+    position: absolute;
+    z-index: 2;
+    color: #ffffff;
+    bottom: 105px;
+}
+.tab-a-active{
+    background-color: #131e29 !important;
+}
+.adv-logo{
+    width: 27px;
+    /* height: 40px; */
+}
+.index-course{
+    position: absolute;
+    z-index: 2;
+}
+.f-sans{
+    font-family: opensans;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn-find-course{
+    margin: 20px auto 0;
+    padding: 10px 20px !important;
+    display: block !important;
+    font-size: 14px !important;
+}
+.tab-feed{
+    border: 1px solid #131e29
+}
+.feed-list{
+    padding: 10px 10px !important;
+}
+.feed-photo{
+    width: 110px;
+}
+.feed-desc{
+    padding: 0 0 0 5px !important;
+}
+.s-txt{
+    font-size: 10px;
+    margin: 0 !important;
+    
+}
+.feed-btn{
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff100;
+    float: right;
+}
+.feed-border-bot{
+    border-bottom: 1px solid #c0c5ce;
+}
+.offer-dive-logo{
+    width: 220px;
+    position: absolute;
+    right: -10px;
+    top: -25px;
+}
+.offer-tape{
+    position: absolute;
+    width: 240px;
+    padding: 4px 0 !important;
+    background: #ff4c4c;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    transform: rotate(-30deg);
+    left: -80px;
+    top: 15px;
+}
+.course-wrapper{
+    width: 55%;
+    height: 50%;
+    position: relative;
+    z-index: 3;
+}
+.price-wrapper{
+    width: 58%;
+    height: 50%;
+    position: relative;
+    z-index: 3;
+}
+.price-course{
+    font-size: 18px;
+}
+.course-plus{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 50px;
+}
+.cor-horizontal{
+    width: 25px;
+    height: 5px;
+    background-color: #ff4c4c;
+    position: absolute;
+    top: 10px;
+}
+.cor-vertical{
+    width: 5px;
+    height: 25px;
+    background-color: #ff4c4c;
+    position: absolute;
+    left: 10px;
+}
+.icon-right{
+    right: 0;
+}
+.btn-pro{
+    font-size: 10px !important;
+    padding: .575rem 2.75rem !important;
+}
+
+/* end of dive course */
+
+/* responsive */
+@media only screen and (max-width: 320px) {
+    .circle-prev {
+        top: 130px;
+    }
+    .carousel-control-prev-icon {
+        position: absolute;
+        top: 145px;
+        margin-left: 5px;
+    }
+    .circle-next {
+        top: 130px;
+    }
+    .carousel-control-next-icon {
+        position: absolute;
+        top: 145px;
+        margin-left: -5px;
+    }
+    .carousel-caption h5 .white,.carousel-caption h5 .yellow {
+        font-size: 16px;
+    }
+    .carousel-caption p {
+        font-size: 13px;
+    }
+    .carousel-caption {
+        bottom: 180px !important;
+    }
+    .carousel-indicators {
+        bottom: 160px !important;
+    }
+    .head-slider {
+        height: calc(100vh - 75px);
+    }
+    .title-desc h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .main-desc {
+        font-size: 12px;
+    }
+    .ci-item {
+        font-size: 11px;
+    }
+    .bubble-tip {
+        margin-left: 2px;
+    }
+    .turtle {
+        left: 20px;
+    }
+    .bubble-tip-text {
+        left: 90px;
+    }
+    .bubble-hori {  
+        width: 280px;
+    }
+    .med-map {
+        width: 280px;
+        height: 180px;
+    }
+    .map-tip {
+        font-size: 7px;
+        top: 110px;
+        left: 40px;
+    }
+    .section-concept {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        height: 1115px;
+    }
+    .tab-loc-img {
+        width: 60px;
+        height: 60px;
+    }
+    .tab-loc-child {
+        margin: 0 2px 0 10px;   
+    }
+    .pamuteran {
+        top: 5px;
+        left: 0px;
+    }
+    .amed {
+        top: 55px;
+        right: -25px;
+    }
+    .tulamben {
+        top: 13px;
+        right: 10px;
+    }
+    .lembongan {
+        top: 175px;
+        right: -5px;
+    }
+    .dive-tip {
+        width: 90%;
+        font-size: 11px;
+        padding: 5px;
+    }
+    .tab-loc {
+        display: flex;
+        justify-content: center;
+    }
+    .tab-loc-dive.mt-4 {
+        margin-top: 10px !important;
+    }
+    .tab-loc-dive.ml-3 {
+        margin-left: 8px !important;
+    }
+    .tab-dive {
+        height: 120px;
+    }
+    .dive-icon {
+        width: 60px;
+        height: 58px;
+    }
+    .tab-loc-dive-child {
+        width: 60px;
+        height: 58px;
+    }
+    .dive-indicator {
+        width: 54px;
+        height: 55px;
+    }
+    .dive-price {
+        margin-bottom: 50px;
+    }
+    .dive-price .col-5 {
+        padding-left: 0px;
+    }
+    .dive-price .col-7 {
+        padding-right: 0px;
+    }
+    .dive-price button {
+        text-transform: uppercase;
+    }
+    .section-course-master {
+        height: 380px;
+    }
+    .section-course-master .dive-price.d-flex {
+        display: block !important;
+    }
+    .section-course-master .dive-price .col-5 {
+        float: left;
+        max-width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .section-course-master .dive-price .col-7 {
+        float: left;
+        max-width: 100%;
+        margin-top: 15px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .section-course-master .dive-price .col-7 span:not(:first-child) {
+        font-weight: bold;
+    }
+    .section-sea .tab-dive-turtle {
+        margin-top: 130px;
+    }
+    .section-safari .dive-price {
+        display: block !important;
+    }
+    .section-safari .dive-price .col-4 {
+        float: left;
+        max-width: 50%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .section-safari .dive-price .col-4:last-child {
+        float: left;
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        flex: 0 0 100%;
+        margin-top: 10px;
+    }
+    .section-safari .dive-price .col-4:last-child .mt-3 br {
+        display: none;
+    }
+    .section-safari {
+        height: 500px;
+    }
+    .section-list {
+        height: 600px;
+    }
+    .section-list .list-child {
+        padding-bottom: 10px !important;
+    }
+    .section-list .list-child span:first-child {
+        display: block;
+        padding-bottom: 5px;
+    }
+    .section-custom {
+        height: 180px;
+    }
+    .section-custom.d-flex {
+        display: block !important;
+    }
+    .section-custom .col-7 {
+        float: left;
+        max-width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .section-custom .col-5 {
+        float: left;
+        max-width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .section-custom .col-5 .mt-5 {
+        margin-top: 10px !important;
+    }
+    .section-div .tab-loc-dive-div {
+        margin-top: 10px !important;
+    }
+    .section-career {
+        height: 600px;
+        margin-top: -50px;
+    }
+    .section-testimoni .testi-text {
+        font-size: 9px !important;
+        text-align: justify !important;
+        padding-right: 10px !important;
+    }
+    .section-join .social-media,.section-join .cta-btn {
+        margin-top: 20px !important;
+    }
+    .section-join .social-media.d-flex {
+        display: block !important;
+    }
+    .section-join .social-media .col-7.d-flex {
+        display: block !important;
+    }
+    .section-join .social-media .col-5, .section-join .social-media .col-7 {
+        float: left;
+        max-width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        display: block;
+    }
+    .section-join .social-media .col-7 {
+        margin-top: 5px;
+    }
+    .section-join .social-media .social-icon {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .section-join .join-slider {
+        clear: both;
+        margin-top: 150px !important;
+    }
+    .section-detail .detail-icon-child {
+        width: 50px;
+        height: 50px;
+    }
+    .section-detail .detail-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .sponsor img {
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    .sponsor {
+        height: 250px;
+        padding-left: 20px !important;
+    }
+    .footer {
+        height: 630px;
+    }
+    .second-footer {
+        margin-top: 40px;
+    }
+    .second-footer p {
+        padding-left: 10px;
+    }
+    .second-footer img:first-child {
+        margin-left: 2px;
+    }
+    .second-footer img:not(:first-child) {
+        margin-left: 10px;
+    }
+    .down-footer.d-flex {
+        display: block !important;
+    }
+    .down-footer {
+        height: 60px;
+    }
+    .down-footer .col-6 {
+        margin-top: 10px;
+        float: left;
+        max-width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        display: block;
+    }
+    .down-footer .col-6:last-child {
+        text-align: left !important;
+    }
+}
+@media only screen and (min-width: 360px) {
+    .circle-prev,.circle-next {
+        top: 245px;
+    }
+    .tab-loc-img {
+        width: 60px;
+        height: 60px;
+    }
+    .tab-loc-child {
+        margin: 0 2px 0 10px;   
+    }
+    .section-concept-icon .tab-loc {
+        margin-left: 15px;
+    }
+    .head-slider {
+        background-color: unset;
+        height: calc(100vh - 75px);
+    }
+    .head-slider .carousel-inner, .head-slider .carousel-inner .carousel-item img{
+        height: calc(100vh - 75px);
+    }
+    .tab-loc-dive.ml-3 {
+        margin-left: 10px !important;
+    }
+    .dive-icon {
+        width: 70px;
+        height: 68px;
+    }
+    .tab-loc-dive-child {
+        width: 70px;
+        height: 68px;
+    }
+    .dive-indicator {
+        width: 64px;
+        height: 65px;
+    }
+    .ci-item {
+        font-size: 13px;
+    }
+    .dive-price button {
+        text-transform: uppercase;
+    }
+    .dive-price .col-5 {
+        padding-left: 0px;
+    }
+    .dive-price .col-7 {
+        padding-right: 0px;
+    }
+    .section-safari {
+        height: 380px;
+    }
+    .section-list .list-child span:first-child {
+        display: block;
+        padding-bottom: 5px;
+    }
+    .section-list .list-child {
+        padding-bottom: 10px !important;
+    }
+    .section-list {
+        height: 550px;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .circle-prev {
+        top: 200px;
+    }
+    .carousel-control-prev-icon {
+        position: absolute;
+        top: 215px;
+    }
+    .circle-next {
+        top: 200px;
+    }
+    .carousel-control-next-icon {
+        position: absolute;
+        top: 215px;
+    }
+    .carousel-caption {
+        bottom: 170px !important;
+    } 
+    .carousel-indicators {
+        bottom: 130px !important;
+    }  
+    .head-slider {
+        height: calc(100vh - 75px);
+    }
+    .amed {
+        right: -20px;
+    }
+    .lembongan {
+        right: 5px;
+    }
+    .tab-loc-img {
+        width: 60px;
+        height: 60px;
+    }
+    .tab-loc-child {
+        margin: 0 2px 0 10px;   
+    }
+    .section-concept-icon .tab-loc {
+        margin-left: 25px;
+    }
+    .dive-icon {
+        width: 70px;
+        height: 68px;
+    }
+    .tab-loc-dive-child {
+        width: 70px;
+        height: 68px;
+    }
+    .dive-indicator {
+        width: 64px;
+        height: 65px;
+    }
+    .dive-price button {
+        text-transform: uppercase;
+    }
+    .dive-price .col-5 {
+        padding-left: 0px;
+    }
+    .dive-price .col-7 {
+        padding-right: 0px;
+    }
+    .section-safari {
+        height: 380px;
+    }
+    .section-list .list-child span:first-child {
+        display: block;
+        padding-bottom: 5px;
+    }
+    .section-list .list-child {
+        padding-bottom: 10px !important;
+    }
+    .section-list {
+        height: 550px;
+    }
+}
+@media only screen and (min-width: 400px) {
+    .tulamben{
+        right: 70px;
+    }
+    .amed{
+        right: 15px;
+    }
+    .lembongan{
+        right: 35px;
+    }
+    .map-tip{
+        width: 62%;
+        top: 130px;
+    }
+}
+@media only screen and (min-width: 414px) {
+    .carousel-control-next, .carousel-control-prev {
+        bottom: 13% !important;
+    }
+    .carousel-caption {
+        bottom: 130px !important;
+    }
+    .carousel-indicators {
+        bottom: 100px !important;
+    }
+    .head-slider {
+        height: calc(100vh - 75px) !important;
+    }
+}
+@media only screen and (min-width: 768px) { 
+  /*  .head-slider {
+        background: unset;
+    }*/
+    .head-slider .carousel-inner,.head-slider .carousel-inner .carousel-item img {
+        height: calc(90vh - 75px);
+    }
+    .circle-prev,.circle-next {
+        top: 300px;
+    }
+    .carousel-control-prev-icon {
+        top: 315px;
+        margin-right: 50px;
+    }
+    .carousel-control-next-icon {
+        top: 315px;
+        margin-right: -50px;
+    }
+    .carousel-caption {
+        bottom: 250px !important;
+    }
+    .carousel-indicators {
+        bottom: 200px !important;
+    }
+    .med-map {
+        width: 730px;
+        height: 300px;
+    }
+    .pamuteran {
+        left: 75px;
+    }
+    .tulamben {
+        right: 80px;
+        top: 25px;
+    }
+    .amed {
+        right: -20px;
+        top: 90px;
+    }
+    .lembongan {
+        right: 65px;
+        top: 260px;
+    }
+    .bubble-hori {  
+        width: 700px;
+    }
+    .map-tip {
+        width: 62%;
+        top: 140px;
+        left: 130px;
+        font-size: 15px;
+    }
+    .section-concept {
+        margin-top: -85px;
+    }
+    .tab-loc-img {
+        width: 100px;
+        height: 90px;
+    }
+    .section-concept-icon {
+        height: 200px;
+        margin-top: -50px;
+    }
+    .section-concept-icon p {
+        font-size: 16px !important;
+    }
+    .tab-loc {
+        display: flex;
+        justify-content: center;
+    }
+    .section-concept-icon .tab-loc {
+        margin-left: 0px;
+    }
+    .tab-dive {
+        margin-top: 288px;
+    }
+    .tab-dive-turtle {
+        margin-top: 265px;
+    }
+    .section-div .tab-dive-turtle {
+        margin-top: 165px;
+    }
+    .join-slider-main {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .detail-icon {
+        display: flex;
+        justify-content: center;
+    }
+}

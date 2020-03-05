@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="210" viewBox="0 0 400 210">
+    <defs>
+        <rect id="a" width="400" height="120" y="30" rx="12"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 15)">
+        <circle cx="200" cy="90" r="90" stroke="#1D79B7" stroke-width="30"/>
+        <use fill="#131E29" xlink:href="#a"/>
+        <rect width="397" height="117" x="1.5" y="31.5" stroke="#FFF100" stroke-width="3" rx="12"/>
+        <text fill="#FFF100" font-family="DaxlinePro-Bold, DaxlinePro" font-size="32" font-weight="bold" letter-spacing="5.333">
+            <tspan x="99.183" y="99">BOOK NOW</tspan>
+        </text>
+    </g>
+</svg>
